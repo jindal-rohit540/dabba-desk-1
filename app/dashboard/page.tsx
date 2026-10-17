@@ -1,11 +1,13 @@
 import { auth } from "@clerk/nextjs/server";
 import { Bot, Clock3, HandCoins, MessagesSquare } from "lucide-react";
+import { DataHealth } from "@/components/dashboard/data-health";
 import { Deliveries } from "@/components/dashboard/deliveries";
 import { Inbox } from "@/components/dashboard/inbox";
 import { KpiTile } from "@/components/dashboard/kpi-tile";
 import { RefundsQueue } from "@/components/dashboard/refunds-queue";
 import { PageHeading } from "@/components/ui";
 import { getKpis, listMessages, listRefunds, listTodaysDeliveries } from "@/lib/data/dashboard";
+import { latestDataCheck } from "@/lib/data/data-checks";
 import { formatDuration } from "@/lib/format";
 import { formatDayIST, istDate } from "@/lib/time";
 
@@ -16,11 +18,12 @@ export default async function DashboardPage({ searchParams }: PageProps<"/dashbo
   await auth.protect(); // signed-out visitors are sent to /sign-in
 
   const view = (await searchParams).view === "human" ? "human" : "all";
-  const [kpis, messages, refunds, deliveries] = await Promise.all([
+  const [kpis, messages, refunds, deliveries, dataCheck] = await Promise.all([
     getKpis(),
     listMessages({ needsHumanOnly: view === "human" }),
     listRefunds(),
     listTodaysDeliveries(),
+    latestDataCheck(),
   ]);
 
   return (
@@ -72,6 +75,7 @@ export default async function DashboardPage({ searchParams }: PageProps<"/dashbo
       <section className="grid items-start gap-5 lg:grid-cols-[1fr_380px]">
         <Inbox messages={messages} view={view} />
         <div className="space-y-5">
+          <DataHealth run={dataCheck} />
           <RefundsQueue refunds={refunds} />
           <Deliveries orders={deliveries} />
         </div>

@@ -4,6 +4,7 @@
  *   npm run db:seed              # clean + upsert, demo dates moved so the data's "today" = real today
  *   npm run db:seed -- --reset   # wipe all tables first
  *   npm run db:seed -- --dry-run # only print the cleaning report
+ *   npm run db:seed -- --live    # also move today's delivery times so "now" ≈ 12:40 pm lunch rush
  */
 import { readFileSync } from "node:fs";
 import Papa from "papaparse";
@@ -20,6 +21,8 @@ const ANCHOR_DATE = process.env.SEED_ANCHOR_DATE ?? "2026-10-21"; // the "today"
 const args = new Set(process.argv.slice(2));
 const DRY_RUN = args.has("--dry-run");
 const RESET = args.has("--reset");
+const LIVE = args.has("--live");
+const DATA_NOW = "12:40"; // the moment the CSV export was taken on the anchor day
 
 // Landmarks used to simulate the partner's "picked up / on the way" events for today's orders
 const LANDMARKS: Record<string, string[]> = {
@@ -57,7 +60,14 @@ function printRejects(label: string, rejects: Reject[]) {
 
 async function main() {
   const offset = args.has("--no-rebase") ? 0 : daysBetween(ANCHOR_DATE, todayIST());
+  // --live: also shift clock times so the CSV's 12:40 pm becomes the current time
+  const liveMs = LIVE ? Date.now() - Date.parse(`${todayIST()}T${DATA_NOW}:00+05:30`) : 0;
+  const ts = (value: string | null) => {
+    const shifted = shiftDays(value, offset);
+    return shifted && liveMs ? new Date(Date.parse(shifted) + liveMs).toISOString() : shifted;
+  };
   console.log(`\n🍱 DabbaDesk seed. Shifting demo dates by ${offset} day(s) (${ANCHOR_DATE} → ${todayIST()})`);
+  if (LIVE) console.log(`   --live: clock shifted by ${Math.round(liveMs / 60000)} min so it's lunch rush right now`);
 
   // ---------- Extract + Transform
   const rawOrders = readCsv("data/raw/orders.csv");
@@ -147,8 +157,8 @@ async function main() {
     amount_paise: o.amount_paise,
     status: o.status,
     rider_id: o.rider_id,
-    eta: shiftDays(o.eta, offset),
-    delivered_at: o.status === "delivered" ? shiftDays(o.eta, offset) : null,
+    eta: ts(o.eta),
+    delivered_at: o.status === "delivered" ? ts(o.eta) : null,
   }));
   for (let i = 0; i < orderRows.length; i += 200) {
     check("orders", await sb.from("orders").upsert(orderRows.slice(i, i + 200)));
@@ -161,7 +171,7 @@ async function main() {
   );
   check("reset events", await sb.from("delivery_events").delete().eq("source", "seed"));
   const events = onTheRoad.flatMap((o) => {
-    const eta = new Date(shiftDays(o.eta!, offset));
+    const eta = new Date(ts(o.eta)!);
     const spots = LANDMARKS[o.area] ?? ["Outer Ring Road"];
     const minus = (m: number) => new Date(eta.getTime() - m * 60_000).toISOString();
     return [
@@ -185,8 +195,8 @@ async function main() {
   check("reset history", await sb.from("messages").delete().eq("handled_by", "human"));
   const historyRows = history.map((m) => {
     const phone = normalizePhone(m.phone);
-    const receivedAt = shiftDays(m.received_at, offset);
-    const repliedAt = m.replied_at ? shiftDays(m.replied_at, offset) : null;
+    const receivedAt = ts(m.received_at)!;
+    const repliedAt = m.replied_at ? ts(m.replied_at) : null;
     return {
       channel: m.channel,
       phone,
