@@ -24,14 +24,16 @@ dabbadesk/
 ├── components/                  # Shared UI (server components unless they need state)
 ├── lib/
 │   ├── supabase/server.ts       # The ONLY place a Supabase client is created (server-only)
-│   ├── data/                    # All DB queries, one file per table/area
+│   ├── data/                    # All DB queries, one file per area (orders, messages, refunds, dashboard…)
 │   ├── triage.ts                # Claude API call: classify + reply (structured output)
-│   ├── actions.ts               # Deterministic actions after triage (skip, log refund)
-│   ├── refunds.ts               # Refund calculation (pure, unit-tested)
-│   ├── partner.ts               # ZipRun payload adapter (pure, unit-tested)
-│   ├── pii.ts                   # Masking helpers (pure, unit-tested)
-│   ├── time.ts                  # IST date helpers
-│   └── etl/                     # CSV cleaning used by scripts/seed.ts
+│   ├── handle-message.ts        # Orchestration: verify → triage → deterministic actions → store (injectable deps)
+│   ├── refunds.ts · skip.ts · pause.ts   # Business rules (pure, unit-tested)
+│   ├── partner.ts               # ZipRun payload adapter v1 + v2 (pure, unit-tested)
+│   ├── pii.ts · secrets.ts      # Masking helpers, constant-time secret compare
+│   ├── data-checks.ts · metrics.ts       # Nightly data-quality rules, dashboard maths
+│   ├── whatsapp.ts              # Order-ID extraction + TwiML
+│   ├── format.ts · time.ts      # formatINR (paise), IST date helpers
+│   └── etl/clean.ts             # CSV cleaning used by scripts/seed.ts
 ├── supabase/migrations/         # SQL migrations (never edit an applied migration; add a new one)
 ├── scripts/seed.ts              # Loads data/raw/*.csv → cleans → upserts into Supabase
 ├── data/raw/                    # Messy CSV exports from the business (input, read-only)
@@ -41,7 +43,7 @@ dabbadesk/
 **Where things belong:**
 - DB queries → `lib/data/*` only. Never call Supabase from a page, component or route directly.
 - Business rules (money, skips, masking, partner parsing) → pure functions in `lib/` with tests.
-- LLM calls → `lib/triage.ts` only.
+- LLM calls → `lib/triage.ts` only. Actions after triage → `lib/handle-message.ts` (never inside the prompt).
 - New page → `app/<route>/page.tsx`. Mutations → Server Actions in that route's `actions.ts`.
 
 ---
@@ -94,7 +96,9 @@ npm test             # vitest run (all)
 npx vitest run tests/refunds.test.ts   # one file
 npm run lint
 npm run typecheck
-npm run db:seed      # clean data/raw/*.csv and upsert into Supabase (needs .env.local)
+npm run db:seed -- --reset --live   # wipe + reload demo data; today's deliveries at "lunch rush" now
+npm run smoke:claude                # one real Claude API call to check the key
+npm run partner:send -- v1-delayed DX-10542   # simulate a ZipRun webhook
 ```
 
 ---
