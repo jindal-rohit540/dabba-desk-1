@@ -1,0 +1,569 @@
+order_id,customer_name,phone,area,office_address,plan,meal,quantity,amount_inr,delivery_date,status,rider_id,eta
+DX-10292,Farhan Hegde,06967054668,Whitefield,"Prestige Shantiniketan, Tower B",Veg Premium,Veg Biryani + Mirchi Salan,1,150,15/10/2026,delivered,R-05,2026-10-15 13:33
+DX-10594,  harsha iyer ,8451680876,Koramangala,"WeWork Koramangala, 80 Feet Rd",Veg Basic,Rajma Chawal,1,110,2026-10-21,delivered,R-01,2026-10-21 13:09
+DX-10381,Ishita Kulkarni,65098 39301,Koramangala,"WeWork Koramangala, 80 Feet Rd",Veg Basic,Dal Tadka + 3 Roti,1,110,17/10/2026,delivered,R-02,2026-10-17 13:31
+DX-10563,Lakshmi Kapoor,91 7260256342,Indiranagar,"HAL 2nd Stage, Indus Towers",Veg Basic,Rajma Chawal,2,220,2026-10-21,out_for_delivery,R-03,2026-10-21 13:38
+DX-10322,Nikhil  Khan,+917814893252,Koramangala,"Salarpuria Hallmark, 5th Block",Veg Premium,Kadai Veg + Butter Naan,1,150,2026-10-16,delivered,R-01,2026-10-16 13:31
+DX-10720,Meghana  Naidu,9566701065,Indiranagar,"HAL 2nd Stage, Indus Towers",Veg Basic,Bisi Bele Bath,1,110,24/10/2026,scheduled,R-09,2026-10-24 12:57
+DX-10682,  bhavya prasad ,9763201632,Hebbal,"Manyata Tech Park, Pine Block",Veg Basic,Bisi Bele Bath,1,110,2026-10-23,scheduled,R-10,2026-10-23 13:13
+DX-10677,Varun Bhat,66934 06088,Whitefield,Brigade Tech Gardens,Veg Basic,Rajma Chawal,2,220,2026-10-23,scheduled,R-05,2026-10-23 13:01
+DX-10688,Joseph Kamath,65310 03309,HSR Layout,"27th Main, Sector 1, Cowork Hub",Veg Basic,Sambar Rice + Poriyal,1,110,2026-10-23,scheduled,R-12,2026-10-23 12:54
+DX-10743,Farhan Hegde,6967054668,Whitefield,"Prestige Shantiniketan, Tower B",Veg Premium,Palak Paneer Thali,1,150,2026-10-24,scheduled,R-05,2026-10-24 13:17
+DX-10308,  keerthi agarwal ,+917412328120,MG Road,"UB City, Concorde Block",Veg Premium,Malai Kofta Thali,1,150,2026-10-15,delivered,R-03,2026-10-15 13:04
+DX-10609,Sneha Gowda,+919773602606,Bellandur,"Prestige Tech Park, Jacaranda",Non-Veg Premium,Andhra Chicken Thali,1,180,2026-10-22,scheduled,R-07,2026-10-22 13:39
+DX-10398,  tejas banerjee ,+91-8951484656,Bellandur,"Embassy Tech Village, Block 9",Veg Premium,Palak Paneer Thali,1,₹150,2026-10-17,delivered,R-07,2026-10-17 13:11
+DX-10318,Karthik Agarwal,8255341928,Whitefield,Brigade Tech Gardens,Veg Basic,Dal Tadka + 3 Roti,1,₹110,2026-10-16,delivered,R-05,2026-10-16 13:18
+DX-10472,Tanvi Kulkarni,9349578856,Electronic City,Wipro Campus Phase 1,Veg Basic,Rajma Chawal,1,110,2026-10-19,delivered,R-08,2026-10-19 13:35
+DX-10409,Anita Das,7745299124,Indiranagar,"CMH Rd, Shree Complex",Veg Premium,Paneer Butter Masala Thali,1,150,2026-10-17,delivered,R-09,2026-10-17 13:29
+DX-10245,Aditi Fernandes,+916831367837,Hebbal,"Embassy Manyata, Mfar Green Heart",Veg Premium,Malai Kofta Thali,2,300,14/10/2026,cancelled,R-10,
+DX-10684,Gaurav Pillai,8348734714,Whitefield,Brigade Tech Gardens,Veg Basic,Sambar Rice + Poriyal,1,110,2026-10-23,scheduled,R-05,2026-10-23 12:32
+DX-10317,  rohan iyer ,+918959310341,Whitefield,"Prestige Shantiniketan, Tower B",Non-Veg Premium,Fish Curry Meals,1,180,2026-10-16,delivered,R-06,2026-10-16 12:48
+DX-10220,Harish Pillai,06183842513,Electronic City,Velankani Tech Park,Veg Basic,Rajma Chawal,1,110,14/10/2026,delivered,R-12,2026-10-14 13:08
+DX-10639,Tanvi Kulkarni,9349578856,Electronic City,Wipro Campus Phase 1,Veg Basic,Chole + Jeera Rice,1,110,2026-10-22,scheduled,R-12,2026-10-22 13:15
+DX-10497,Kavya Iyer,74738 29973,Hebbal,"Manyata Tech Park, Pine Block",Non-Veg Premium,Chicken Biryani + Raita,1,180,2026-10-20,DELIVERED,R-10,2026-10-20 13:16
+DX-10280,Lakshmi  Kapoor,7260256342,Indiranagar,"HAL 2nd Stage, Indus Towers",Veg Basic,Chole + Jeera Rice,2,220,2026-10-15,delivered,R-09,2026-10-15 12:50
+DX-10335,Vikram Agarwal,82786 80112,Koramangala,"Salarpuria Hallmark, 5th Block",Non-Veg Premium,Chicken Biryani + Raita,1,180,2026-10-16,delivered,R-02,2026-10-16 13:06
+DX-10723,Pooja Bhat,9234309805,Koramangala,"Embassy Golf Links, Tower C",Veg Basic,Rajma Chawal,1,110,2026-10-24,scheduled,R-02,2026-10-24 12:46
+DX-10446,Shruti Bhat,+918435346247,Electronic City,Infosys Gate 2,Non-Veg Premium,Fish Curry Meals,1,180,2026-10-19,delivered,R-12,2026-10-19 12:58
+DX-10455,Tejas Banerjee,8951484656,Bellandur,"Embassy Tech Village, Block 9",Veg Premium,Veg Biryani + Mirchi Salan,1,150,19/10/2026,delivered,R-11,2026-10-19 12:30
+DX-10544,Karthik Agarwal,+91-8255341928,Whitefield,Brigade Tech Gardens,Veg Basic,Rajma Chawal,1,110,2026-10-21,delivered,R-06,2026-10-21 13:12
+DX-10448,Suresh  Mehta,+917534874016,Bellandur,"RMZ Ecospace, Bldg 4",Veg Basic,Rajma Chawal,1,110,2026-10-19,delivered,R-11,2026-10-19 12:54
+DX-10256,Simran Joshi,8655125674,MG Road,"UB City, Concorde Block",Non-Veg Premium,Fish Curry Meals,1,180,2026-10-14,delivered,R-03,2026-10-14 13:33
+DX-10347,Irfan  Iyer,7236231665,Hebbal,"Embassy Manyata, Mfar Green Heart",Veg Premium,Malai Kofta Thali,1,150,16/10/2026,skipped,R-09,
+DX-10419,  naveen nair ,6671902294,Indiranagar,"HAL 2nd Stage, Indus Towers",Jain Special,Jain Paneer Thali,2,260,2026-10-17,delivered,R-09,2026-10-17 13:31
+DX-10389,Harish Pillai,6183842513,Electronic City,Velankani Tech Park,Veg Basic,Bisi Bele Bath,1,110,17-Oct-2026,delivered,R-12,2026-10-17 13:30
+DX-10314,Aarav Agarwal,6043321819,MG Road,Prestige Meridian 2,Veg Basic,Rajma Chawal,2,220,16-Oct-2026,skipped,R-09,
+DX-10492,PRANAV FERNANDES,+916184514627,Koramangala,"WeWork Koramangala, 80 Feet Rd",Jain Special,Jain Veg Pulao,1,130,20-Oct-2026,delivered,R-01,2026-10-20 13:19
+DX-10209,Pranav Fernandes,+916184514627,Koramangala,"WeWork Koramangala, 80 Feet Rd",Jain Special,Jain Paneer Thali,1,130,2026-10-14,delivered,R-02,2026-10-14 13:08
+DX-10420,Pavan  Mehta,78677 49649,Koramangala,"Salarpuria Hallmark, 5th Block",Veg Premium,Malai Kofta Thali,1,150,17-Oct-2026,DELIVERED,R-01,2026-10-17 12:59
+DX-10585,TANVI KULKARNI,9349578856,Electronic City,Wipro Campus Phase 1,Veg Basic,Chole + Jeera Rice,1,110,2026-10-21,preparing,R-08,2026-10-21 12:55
+DX-10325,Ishita Kulkarni,+916509839301,Koramangala,"WeWork Koramangala, 80 Feet Rd",Veg Basic,Veg Pulao + Raita,1,110,2026-10-16,delivered,R-01,2026-10-16 13:20
+DX-10707,Vivaan Khan,+916838637940,HSR Layout,"27th Main, Sector 1, Cowork Hub",Non-Veg Premium,Fish Curry Meals,1,180,2026-10-24,scheduled,R-04,2026-10-24 13:21
+DX-10422,Sowmya Reddy,07447134936,Indiranagar,"HAL 2nd Stage, Indus Towers",Veg Premium,Veg Biryani + Mirchi Salan,1,150,2026-10-17,cancelled,R-03,
+DX-10722,Sneha Gowda,9773602606,Bellandur,"Prestige Tech Park, Jacaranda",Non-Veg Premium,Fish Curry Meals,1,180,2026-10-24,scheduled,R-11,2026-10-24 12:32
+DX-10348,Farhan Hegde,+916967054668,Whitefield,"Prestige Shantiniketan, Tower B",Veg Premium,Malai Kofta Thali,1,150,2026-10-16,delivered,R-05,2026-10-16 13:29
+DX-10295,Joseph Kamath,6531003309,HSR Layout,"27th Main, Sector 1, Cowork Hub",Veg Basic,Rajma Chawal,1,110,15/10/2026,delivered,R-04,2026-10-15 13:36
+DX-10323,Ananya Banerjee,8430391171,HSR Layout,"Sector 6, Glen Plaza",Veg Basic,Veg Pulao + Raita,1,Rs. 110.00,16/10/2026,delivered,R-04,2026-10-16 13:17
+DX-10510,Ramya Kulkarni,7754330365,Bellandur,"Prestige Tech Park, Jacaranda",Non-Veg Premium,Fish Curry Meals,1,₹180,2026-10-20,delivered,R-11,2026-10-20 13:28
+DX-10752,Abhishek Mehta,08134352408,HSR Layout,"Sector 6, Glen Plaza",Veg Basic,Rajma Chawal,1,110,2026-10-24,scheduled,R-04,2026-10-24 13:06
+DX-10692,Yash Hegde,8075273545,Bellandur,"Prestige Tech Park, Jacaranda",Non-Veg Premium,Fish Curry Meals,1,180,2026-10-23,scheduled,R-11,2026-10-23 13:33
+DX-10387,Divya Gowda,6812191361,Whitefield,"ITPL, Discoverer Bldg",Veg Premium,Malai Kofta Thali,2,300,17-Oct-2026,delivered,R-06,2026-10-17 13:17
+DX-10378,Nikhil Khan,7814893252,Koramangala,"Salarpuria Hallmark, 5th Block",Veg Premium,Malai Kofta Thali,1,150,17/10/2026,cancelled,R-02,
+DX-10241,Rekha Naidu,09631931491,Koramangala,"WeWork Koramangala, 80 Feet Rd",Veg Basic,Chole + Jeera Rice,1,110,2026-10-14,lost??,R-02,2026-10-14 12:36
+DX-10662,Kavya Iyer,7473829973,Hebbal,"Manyata Tech Park, Pine Block",Non-Veg Premium,Chicken Biryani + Raita,1,180,2026-10-23,skipped,R-10,
+DX-10413,Yash Hegde,80752 73545,Bellandur,"Prestige Tech Park, Jacaranda",Non-Veg Premium,Egg Curry + Ghee Rice,1,180,2026-10-17,delivered,R-11,2026-10-17 13:37
+DX-10683,  chaitra pillai ,7788957986,Hebbal,"Embassy Manyata, Mfar Green Heart",Non-Veg Premium,Andhra Chicken Thali,1,180,2026-10-23,scheduled,R-09,2026-10-23 12:53
+DX-10590,Sowmya Reddy,7447134936,Indiranagar,"HAL 2nd Stage, Indus Towers",Veg Premium,Veg Biryani + Mirchi Salan,1,150,2026-10-21,preparing,R-09,2026-10-21 12:40
+DX-10735,Tejas Banerjee,8951484656,Bellandur,"Embassy Tech Village, Block 9",Veg Premium,Malai Kofta Thali,1,150,2026-10-24,scheduled,R-07,2026-10-24 13:29
+DX-10501,Pooja Bhat,91 9234309805,Koramangala,"Embassy Golf Links, Tower C",Veg Basic,Veg Pulao + Raita,1,110,2026-10-20,delivered,R-01,2026-10-20 13:20
+DX-10457,Swati Naidu,08332003791,Hebbal,"Manyata Tech Park, Pine Block",Veg Premium,Kadai Veg + Butter Naan,1,150,2026-10-19,DELIVERED,R-10,2026-10-19 12:36
+DX-10424,Kunal Khan,9719065940,Indiranagar,"CMH Rd, Shree Complex",Veg Basic,Veg Pulao + Raita,1,110,2026-10-17,cancelled,R-09,
+DX-10496,Ishita Kulkarni,6509839301,Koramangala,"WeWork Koramangala, 80 Feet Rd",Veg Basic,Sambar Rice + Poriyal,1,Rs. 110.00,2026-10-20,DELIVERED,R-01,2026-10-20 12:46
+DX-10441,MEGHANA NAIDU,09566701065,Indiranagar,"HAL 2nd Stage, Indus Towers",Veg Basic,Bisi Bele Bath,1,110,19/10/2026,delivered,R-03,2026-10-19 13:28
+DX-10621,Tejas Banerjee,91 8951484656,Bellandur,"Embassy Tech Village, Block 9",Veg Premium,Paneer Butter Masala Thali,1,150,2026-10-22,skipped,R-07,
+DX-10675,Ramya Kulkarni,07754330365,Bellandur,"Prestige Tech Park, Jacaranda",Non-Veg Premium,Egg Curry + Ghee Rice,1,180,2026-10-23,scheduled,R-11,2026-10-23 12:53
+DX-10396,NANDINI VERMA,+919850142940,Indiranagar,"HAL 2nd Stage, Indus Towers",Veg Premium,Kadai Veg + Butter Naan,1,150,17/10/2026,skipped,R-03,
+DX-10301,Aditi Fernandes,6831367837,Hebbal,"Embassy Manyata, Mfar Green Heart",Veg Premium,Palak Paneer Thali,2,300,2026-10-15,DELIVERED,R-09,2026-10-15 12:53
+DX-10239,Joseph Kamath,65310 03309,HSR Layout,"27th Main, Sector 1, Cowork Hub",Veg Basic,Bisi Bele Bath,1,110,2026-10-14,delivered,R-12,2026-10-14 13:09
+DX-10551,Ishita Kulkarni,+916509839301,Koramangala,"WeWork Koramangala, 80 Feet Rd",Veg Basic,Sambar Rice + Poriyal,1,110,2026-10-21,out_for_delivery,R-01,2026-10-21 13:20
+DX-10404,Gaurav Pillai,8348734714,Whitefield,Brigade Tech Gardens,Veg Basic,Bisi Bele Bath,1,110,2026-10-17,delivered,R-06,2026-10-17 13:30
+DX-10401,Swati Naidu,8332003791,Hebbal,"Manyata Tech Park, Pine Block",Veg Premium,Palak Paneer Thali,1,150,2026-10-17,delivered,R-09,2026-10-17 12:30
+DX-10637,YASH HEGDE,+91-8075273545,Bellandur,"Prestige Tech Park, Jacaranda",Non-Veg Premium,Fish Curry Meals,1,180,2026-10-22,scheduled,R-07,2026-10-22 12:42
+DX-10313,Harsha  Iyer,08451680876,Koramangala,"WeWork Koramangala, 80 Feet Rd",Veg Basic,Veg Pulao + Raita,1,Rs. 110.00,2026-10-15,delivered,R-02,2026-10-15 13:18
+DX-10229,Tejas Banerjee,+918951484656,Bellandur,"Embassy Tech Village, Block 9",Veg Premium,Kadai Veg + Butter Naan,1,150,2026-10-14,delivered,R-07,2026-10-14 13:17
+DX-10577,Zoya Gowda,+916465375564,MG Road,Prestige Meridian 2,Veg Basic,Dal Tadka + 3 Roti,2,220,2026-10-21,out_for_delivery,R-09,2026-10-21 12:54
+DX-10328,Sneha Gowda,9773602606,Bellandur,"Prestige Tech Park, Jacaranda",Non-Veg Premium,Egg Curry + Ghee Rice,1,180,2026-10-16,delivered,R-07,2026-10-16 13:34
+DX-10518,Chaitra Pillai,+917788957986,Hebbal,"Embassy Manyata, Mfar Green Heart",Non-Veg Premium,Fish Curry Meals,1,180,2026-10-20,delivered,R-09,2026-10-20 13:43
+DX-10583,Yash Hegde,91 8075273545,Bellandur,"Prestige Tech Park, Jacaranda",Non-Veg Premium,Chicken Biryani + Raita,1,180,2026-10-21,delivered,R-11,2026-10-21 12:57
+DX-10384,PRIYA RAO,92473 17810,Koramangala,"Salarpuria Hallmark, 5th Block",Jain Special,Jain Veg Pulao,1,130,2026-10-17,delivered,R-02,2026-10-17 13:11
+DX-10450,Deepak Bhat,+91-7045053315,MG Road,Prestige Meridian 2,Jain Special,Jain Paneer Thali,1,130,19/10/2026,delivered,R-03,2026-10-19 13:19
+DX-10371,Aarav Agarwal,+916043321819,MG Road,Prestige Meridian 2,Veg Basic,Dal Tadka + 3 Roti,2,₹220,2026-10-17,delivered,R-03,2026-10-17 13:19
+DX-10303,Ritika Patil,71351 82337,Bellandur,"Embassy Tech Village, Block 9",Non-Veg Premium,Egg Curry + Ghee Rice,1,180,2026-10-15,delivered,R-07,2026-10-15 13:34
+DX-10250,Naveen Nair,+916671902294,Indiranagar,"HAL 2nd Stage, Indus Towers",Jain Special,Jain Dal Khichdi,2,260,2026-10-14,delivered,R-03,2026-10-14 12:55
+DX-10486,Vivaan Khan,68386 37940,HSR Layout,"27th Main, Sector 1, Cowork Hub",Non-Veg Premium,Andhra Chicken Thali,1,180,2026-10-20,delivered,R-04,2026-10-20 13:29
+DX-10370,Harsha  Iyer,91 8451680876,Koramangala,"WeWork Koramangala, 80 Feet Rd",Veg Basic,Dal Tadka + 3 Roti,1,Rs. 110.00,2026-10-16,delivered,R-01,2026-10-16 13:17
+DX-10249,Sandeep Menon,77109 47775,HSR Layout,"Agara Lake Rd, Tech Square",Jain Special,Jain Dal Khichdi,1,130,2026-10-14,delivered,R-04,2026-10-14 13:08
+DX-10695,RITIKA PATIL,+917135182337,Bellandur,"Embassy Tech Village, Block 9",Non-Veg Premium,Egg Curry + Ghee Rice,1,180,2026-10-23,scheduled,R-07,2026-10-23 13:30
+DX-10730,Deepak Bhat,70450 53315,MG Road,Prestige Meridian 2,Jain Special,Jain Veg Pulao,1,130,2026-10-24,scheduled,R-03,2026-10-24 13:19
+DX-10304,Abhishek Mehta,+918134352408,HSR Layout,"Sector 6, Glen Plaza",Veg Basic,Dal Tadka + 3 Roti,1,110,2026-10-15,delivered,R-04,2026-10-15 12:48
+DX-10538,Riya Das,64902 78742,MG Road,Prestige Meridian 2,Veg Premium,Veg Biryani + Mirchi Salan,1,₹150,2026-10-20,delivered,R-09,2026-10-20 13:09
+DX-10286,Neha Pillai,9738721489,Electronic City,Infosys Gate 2,Veg Basic,Rajma Chawal,1,110,2026-10-15,delivered,R-08,2026-10-15 12:57
+DX-10204,ROHAN IYER,08959310341,Whitefield,"Prestige Shantiniketan, Tower B",Non-Veg Premium,Egg Curry + Ghee Rice,1,180,2026-10-14,delivered,R-05,2026-10-14 12:57
+DX-10364,Keerthi Agarwal,7412328120,MG Road,"UB City, Concorde Block",Veg Premium,Malai Kofta Thali,1,150,2026-10-16,delivered,R-03,2026-10-16 13:10
+DX-10464,Zoya Gowda,+916465375564,MG Road,Prestige Meridian 2,Veg Basic,Rajma Chawal,2,220,2026-10-19,delivered,R-09,2026-10-19 13:00
+DX-10514,Akshay Hegde,7994680443,MG Road,"UB City, Concorde Block",Non-Veg Premium,Fish Curry Meals,1,Rs. 180.00,20-Oct-2026,delivered,R-03,2026-10-20 13:33
+DX-10423,Aman Singh,+917102499471,Hebbal,"Embassy Manyata, Mfar Green Heart",Non-Veg Premium,Andhra Chicken Thali,1,180,2026-10-17,delivered,R-09,2026-10-17 12:55
+DX-10564,  ramya kulkarni ,7754330365,Bellandur,"Prestige Tech Park, Jacaranda",Non-Veg Premium,Fish Curry Meals,1,180,21-Oct-2026,delivered,R-07,2026-10-21 12:30
+DX-10634,Rekha Naidu,91 9631931491,Koramangala,"WeWork Koramangala, 80 Feet Rd",Veg Basic,Dal Tadka + 3 Roti,1,₹110,2026-10-22,scheduled,R-02,2026-10-22 13:10
+DX-10589,Keerthi Agarwal,74123 28120,MG Road,"UB City, Concorde Block",Veg Premium,Malai Kofta Thali,1,150,2026-10-21,preparing,R-03,2026-10-21 12:45
+DX-10361,Sandeep Menon,07710947775,HSR Layout,"Agara Lake Rd, Tech Square",Jain Special,Jain Veg Pulao,1,130,2026-10-16,delivered,R-12,2026-10-16 13:15
+DX-10715,Nikhil Khan,+917814893252,Koramangala,"Salarpuria Hallmark, 5th Block",Veg Premium,Veg Biryani + Mirchi Salan,1,150,24-Oct-2026,scheduled,R-02,2026-10-24 13:10
+DX-10345,Chaitra Pillai,7788957986,Hebbal,"Embassy Manyata, Mfar Green Heart",Non-Veg Premium,Chicken Biryani + Raita,1,180,16/10/2026,cancelled,R-09,
+DX-10332,Harish Pillai,+916183842513,Electronic City,Velankani Tech Park,Veg Basic,Veg Pulao + Raita,1,Rs. 110.00,2026-10-16,delivered,R-12,2026-10-16 12:52
+DX-10366,Aman Singh,7102499471,Hebbal,"Embassy Manyata, Mfar Green Heart",Non-Veg Premium,Fish Curry Meals,1,180,2026-10-16,delivered,R-10,2026-10-16 12:33
+DX-10445,DIVYA GOWDA,6812191361,Whitefield,"ITPL, Discoverer Bldg",Veg Premium,Veg Biryani + Mirchi Salan,2,300,2026-10-19,delivered,R-06,2026-10-19 13:01
+DX-10727,Manoj Prasad,+91-8980841241,Indiranagar,"HAL 2nd Stage, Indus Towers",Non-Veg Premium,Andhra Chicken Thali,1,180,2026-10-24,scheduled,R-09,2026-10-24 13:03
+DX-10713,Rahul Khan,9101226916,MG Road,"UB City, Concorde Block",Veg Premium,Veg Biryani + Mirchi Salan,1,150,2026-10-24,scheduled,R-03,2026-10-24 13:02
+DX-10676,  nandini verma ,9850142940,Indiranagar,"HAL 2nd Stage, Indus Towers",Veg Premium,Veg Biryani + Mirchi Salan,1,₹150,2026-10-23,skipped,R-03,
+DX-10402,Bhavya  Prasad,09763201632,Hebbal,"Manyata Tech Park, Pine Block",Veg Basic,Chole + Jeera Rice,1,₹110,17-Oct-2026,cancelled,R-09,
+DX-10540,Aarav Agarwal,91 6043321819,MG Road,Prestige Meridian 2,Veg Basic,Sambar Rice + Poriyal,2,220,2026-10-21,delivered,R-09,2026-10-21 12:36
+DX-10610,Pooja Bhat,92343 09805,Koramangala,"Embassy Golf Links, Tower C",Veg Basic,Bisi Bele Bath,1,110,2026-10-22,scheduled,R-01,2026-10-22 13:06
+DX-10412,GIRISH MEHTA,+919769453147,Whitefield,Brigade Tech Gardens,Non-Veg Premium,Andhra Chicken Thali,1,180,17-Oct-2026,delivered,R-06,2026-10-17 13:09
+DX-10706,Aarav Agarwal,6043321819,MG Road,Prestige Meridian 2,Veg Basic,Sambar Rice + Poriyal,2,220,24/10/2026,scheduled,R-03,2026-10-24 13:19
+DX-10289,Chaitra Pillai,7788957986,Hebbal,"Embassy Manyata, Mfar Green Heart",Non-Veg Premium,Fish Curry Meals,1,180,2026-10-15,delivered,R-09,2026-10-15 13:08
+DX-10708,  aditya shetty ,8116155940,Hebbal,"Embassy Manyata, Mfar Green Heart",Veg Premium,Palak Paneer Thali,1,150,2026-10-24,scheduled,R-10,2026-10-24 13:26
+DX-10352,Anita Das,07745299124,Indiranagar,"CMH Rd, Shree Complex",Veg Premium,Palak Paneer Thali,1,150,16-Oct-2026,DELIVERED,R-09,2026-10-16 13:21
+DX-10595,Aarav Agarwal,+916043321819,MG Road,Prestige Meridian 2,Veg Basic,Veg Pulao + Raita,2,220,22-Oct-2026,scheduled,R-09,2026-10-22 13:45
+DX-10259,Vivaan  Khan,68386 37940,HSR Layout,"27th Main, Sector 1, Cowork Hub",Non-Veg Premium,Andhra Chicken Thali,1,180,2026-10-15,delivered,R-12,2026-10-15 13:20
+DX-10227,Nandini Verma,+919850142940,Indiranagar,"HAL 2nd Stage, Indus Towers",Veg Premium,Paneer Butter Masala Thali,1,150,14/10/2026,delivered,R-09,2026-10-14 13:12
+DX-10362,  naveen nair ,,Indiranagar,"HAL 2nd Stage, Indus Towers",Jain Special,Jain Paneer Thali,2,260,2026-10-16,delivered,R-09,2026-10-16 13:14
+DX-10340,Varun Bhat,+916693406088,Whitefield,Brigade Tech Gardens,Veg Basic,Dal Tadka + 3 Roti,2,220,2026-10-16,delivered,R-05,2026-10-16 13:38
+DX-10478,Keerthi Agarwal,+917412328120,MG Road,"UB City, Concorde Block",Veg Premium,Paneer Butter Masala Thali,1,150,19/10/2026,delivered,R-03,2026-10-19 13:02
+DX-10334,Suresh Mehta,+917534874016,Bellandur,"RMZ Ecospace, Bldg 4",Veg Basic,Bisi Bele Bath,1,110,2026-10-16,delivered,R-11,2026-10-16 13:12
+DX-10508,Deepak Bhat,+917045053315,MG Road,Prestige Meridian 2,Jain Special,Jain Dal Khichdi,1,130,20-Oct-2026,delivered,R-03,2026-10-20 13:32
+DX-10258,Aarav  Agarwal,+916043321819,MG Road,Prestige Meridian 2,Veg Basic,Veg Pulao + Raita,2,220,2026-10-15,delivered,R-03,2026-10-15 13:28
+DX-10291,IRFAN IYER,7236231665,Hebbal,"Embassy Manyata, Mfar Green Heart",Veg Premium,Malai Kofta Thali,1,150,2026-10-15,delivered,R-09,2026-10-15 12:33
+DX-10488,Karthik Agarwal,82553 41928,Whitefield,Brigade Tech Gardens,Veg Basic,Rajma Chawal,1,₹110,2026-10-20,delivered,R-06,2026-10-20 12:58
+DX-10234,Chaitra Pillai,+917788957986,Hebbal,"Embassy Manyata, Mfar Green Heart",Non-Veg Premium,Chicken Curry + Jeera Rice,1,180,2026-10-14,delivered,R-09,2026-10-14 13:32
+DX-10659,Ananya Banerjee,08430391171,HSR Layout,"Sector 6, Glen Plaza",Veg Basic,Chole + Jeera Rice,1,110,2026-10-23,scheduled,R-04,2026-10-23 12:55
+DX-10704,Simran Joshi,+918655125674,MG Road,"UB City, Concorde Block",Non-Veg Premium,Egg Curry + Ghee Rice,1,180,23-Oct-2026,scheduled,R-03,2026-10-23 13:16
+DX-10761,Harsha Iyer,8451680876,Koramangala,"WeWork Koramangala, 80 Feet Rd",Veg Basic,Sambar Rice + Poriyal,1,110,2026-10-24,scheduled,R-01,2026-10-24 12:41
+DX-10596,Vivaan Khan,6838637940,HSR Layout,"27th Main, Sector 1, Cowork Hub",Non-Veg Premium,Chicken Biryani + Raita,1,180,2026-10-22,scheduled,R-12,2026-10-22 13:24
+DX-10515,NEHA PILLAI,9738721489,Electronic City,Infosys Gate 2,Veg Basic,Rajma Chawal,1,110,20/10/2026,delivered,R-08,2026-10-20 12:56
+DX-10606,Kavya Iyer,07473829973,Hebbal,"Manyata Tech Park, Pine Block",Non-Veg Premium,Chicken Curry + Jeera Rice,1,180,22-Oct-2026,scheduled,R-10,2026-10-22 13:03
+DX-10236,  irfan iyer ,7236231665,Hebbal,"Embassy Manyata, Mfar Green Heart",Veg Premium,Veg Biryani + Mirchi Salan,1,150,14-Oct-2026,delivered,R-09,2026-10-14 13:18
+DX-10619,Nandini Verma,9850142940,Indiranagar,"HAL 2nd Stage, Indus Towers",Veg Premium,Paneer Butter Masala Thali,1,150,2026-10-22,scheduled,R-03,2026-10-22 13:08
+DX-10681,Swati Naidu,8332003791,Hebbal,"Manyata Tech Park, Pine Block",Veg Premium,Paneer Butter Masala Thali,1,150,23-Oct-2026,scheduled,R-10,2026-10-23 13:07
+DX-10535,Pavan Mehta,+917867749649,Koramangala,"Salarpuria Hallmark, 5th Block",Veg Premium,Malai Kofta Thali,1,150,2026-10-20,delivered,R-01,2026-10-20 12:55
+DX-10581,Mohan  Iyer,8067165726,HSR Layout,"Agara Lake Rd, Tech Square",Non-Veg Premium,Chicken Curry + Jeera Rice,1,180,2026-10-21,delivered,R-04,2026-10-21 13:19
+DX-10218,Pooja Bhat,92343 09805,Koramangala,"Embassy Golf Links, Tower C",Veg Basic,Dal Tadka + 3 Roti,1,110,2026-10-14,DELIVERED,R-02,2026-10-14 13:27
+DX-10337,Lakshmi Kapoor,7260256342,Indiranagar,"HAL 2nd Stage, Indus Towers",Veg Basic,Sambar Rice + Poriyal,2,220,2026-10-16,delivered,R-09,2026-10-16 13:13
+DX-10584,Aditi Fernandes,+91-6831367837,Hebbal,"Embassy Manyata, Mfar Green Heart",Veg Premium,Malai Kofta Thali,2,300,21-Oct-2026,out_for_delivery,R-10,2026-10-21 13:10
+DX-10687,Zoya  Gowda,+916465375564,MG Road,Prestige Meridian 2,Veg Basic,Chole + Jeera Rice,2,220,2026-10-23,scheduled,R-09,2026-10-23 13:26
+DX-10521,Farhan Hegde,6967054668,Whitefield,"Prestige Shantiniketan, Tower B",Veg Premium,Palak Paneer Thali,1,150,2026-10-20,delivered,R-05,2026-10-20 12:53
+DX-10674,Lakshmi Kapoor,7260256342,Indiranagar,"HAL 2nd Stage, Indus Towers",Veg Basic,Bisi Bele Bath,2,220,2026-10-23,scheduled,R-03,2026-10-23 13:02
+DX-10255,Kunal Khan,97190 65940,Indiranagar,"CMH Rd, Shree Complex",Veg Basic,Dal Tadka + 3 Roti,1,110,14/10/2026,DELIVERED,R-03,2026-10-14 13:14
+DX-10290,Gaurav Pillai,08348734714,Whitefield,Brigade Tech Gardens,Veg Basic,Dal Tadka + 3 Roti,1,110,2026-10-15,delivered,R-06,2026-10-15 12:58
+DX-10546,Siddharth Pillai,+917423884969,MG Road,Prestige Meridian 2,Veg Basic,Chole + Jeera Rice,1,110,2026-10-21,out_for_delivery,R-09,2026-10-21 12:58
+DX-10669,Harish Pillai,+91-6183842513,Electronic City,Velankani Tech Park,Veg Basic,Rajma Chawal,1,110,2026-10-23,scheduled,R-12,2026-10-23 13:17
+DX-10270,Meghana Naidu,9566701065,Indiranagar,"HAL 2nd Stage, Indus Towers",Veg Basic,Dal Tadka + 3 Roti,1,110,2026-10-15,delivered,R-09,2026-10-15 12:39
+DX-10388,Shruti Bhat,08435346247,Electronic City,Infosys Gate 2,Non-Veg Premium,Egg Curry + Ghee Rice,1,180,2026-10-17,delivered,R-08,2026-10-17 12:57
+DX-10593,Simran Joshi,+91-8655125674,MG Road,"UB City, Concorde Block",Non-Veg Premium,Andhra Chicken Thali,1,180,21/10/2026,Out for delivery,R-09,2026-10-21 13:16
+DX-10679,AKSHAY HEGDE,7994680443,MG Road,"UB City, Concorde Block",Non-Veg Premium,Chicken Curry + Jeera Rice,1,180,2026-10-23,scheduled,R-09,2026-10-23 13:40
+DX-10243,  girish mehta ,+91-9769453147,Whitefield,Brigade Tech Gardens,Non-Veg Premium,Fish Curry Meals,1,Rs. 180.00,14/10/2026,delivered,R-05,2026-10-14 13:31
+DX-10275,Shruti Bhat,8435346247,Electronic City,Infosys Gate 2,Non-Veg Premium,Andhra Chicken Thali,1,180,2026-10-15,delivered,R-12,2026-10-15 12:48
+DX-10527,MOHAN IYER,8067165726,HSR Layout,"Agara Lake Rd, Tech Square",Non-Veg Premium,Chicken Biryani + Raita,1,180,2026-10-20,delivered,R-12,2026-10-20 12:59
+DX-10201,AARAV AGARWAL,6043321819,MG Road,Prestige Meridian 2,Veg Basic,Sambar Rice + Poriyal,2,220,2026-10-14,delivered,R-09,2026-10-14 12:57
+DX-10734,Varun Bhat,6693406088,Whitefield,Brigade Tech Gardens,Veg Basic,Bisi Bele Bath,2,Rs. 220.00,2026-10-24,scheduled,R-06,2026-10-24 13:28
+DX-10316,Aditya Shetty,08116155940,Hebbal,"Embassy Manyata, Mfar Green Heart",Veg Premium,Malai Kofta Thali,1,150,2026-10-16,delivered,R-09,2026-10-16 12:53
+DX-10749,  yash hegde ,+91-8075273545,Bellandur,"Prestige Tech Park, Jacaranda",Non-Veg Premium,Chicken Biryani + Raita,1,180,2026-10-24,scheduled,R-11,2026-10-24 13:40
+DX-10548,Pranav Fernandes,61845 14627,Koramangala,"WeWork Koramangala, 80 Feet Rd",Jain Special,Jain Dal Khichdi,1,130,21/10/2026,out_for_delivery,R-01,2026-10-21 13:11
+DX-10338,Ramya Kulkarni,77543 30365,Bellandur,"Prestige Tech Park, Jacaranda",Non-Veg Premium,Chicken Curry + Jeera Rice,1,180,16/10/2026,cancelled,R-11,
+DX-10511,Nandini Verma,98501 42940,Indiranagar,"HAL 2nd Stage, Indus Towers",Veg Premium,Kadai Veg + Butter Naan,1,150,2026-10-20,DELIVERED,R-09,2026-10-20 13:39
+DX-10562,Deepak Bhat,+917045053315,MG Road,Prestige Meridian 2,Jain Special,Jain Dal Khichdi,1,130,2026-10-21,delivered,R-09,2026-10-21 13:26
+DX-10438,Diya Gowda,8896383465,Hebbal,"Manyata Tech Park, Pine Block",Non-Veg Premium,Egg Curry + Ghee Rice,1,180,2026-10-19,delivered,R-09,2026-10-19 13:28
+DX-10296,Anita Das,7745299124,Indiranagar,"CMH Rd, Shree Complex",Veg Premium,Malai Kofta Thali,1,150,15-Oct-2026,delivered,R-09,2026-10-15 13:28
+DX-10506,Suresh Mehta,+91-7534874016,Bellandur,"RMZ Ecospace, Bldg 4",Veg Basic,Veg Pulao + Raita,1,110,2026-10-20,delivered,R-11,2026-10-20 13:35
+DX-10253,  sowmya reddy ,7447134936,Indiranagar,"HAL 2nd Stage, Indus Towers",Veg Premium,Paneer Butter Masala Thali,1,150,32/10/2026,delivered,R-03,2026-10-14 13:23
+DX-10329,Pooja Bhat,9234309805,Koramangala,"Embassy Golf Links, Tower C",Veg Basic,Dal Tadka + 3 Roti,1,110,2026-10-16,delivered,R-01,2026-10-16 12:52
+DX-10591,Aman Singh,7102499471,Hebbal,"Embassy Manyata, Mfar Green Heart",Non-Veg Premium,Fish Curry Meals,1,180,21-Oct-2026,out_for_delivery,R-09,2026-10-21 12:51
+DX-10222,Suresh Mehta,7534874016,Bellandur,"RMZ Ecospace, Bldg 4",Veg Basic,Veg Pulao + Raita,1,110,2026-10-14,delivered,R-07,2026-10-14 13:27
+DX-10315,Vivaan  Khan,68386 37940,HSR Layout,"27th Main, Sector 1, Cowork Hub",Non-Veg Premium,Andhra Chicken Thali,1,180,2026-10-16,delivered,R-12,2026-10-16 12:56
+DX-10386,Pooja Bhat,09234309805,Koramangala,"Embassy Golf Links, Tower C",Veg Basic,Rajma Chawal,1,110,17-Oct-2026,delivered,R-02,2026-10-17 13:19
+DX-10516,Swati Naidu,+918332003791,Hebbal,"Manyata Tech Park, Pine Block",Veg Premium,Veg Biryani + Mirchi Salan,1,150,2026-10-20,delivered,R-09,2026-10-20 13:14
+DX-10278,Vikram Agarwal,8278680112,Koramangala,"Salarpuria Hallmark, 5th Block",Non-Veg Premium,Andhra Chicken Thali,1,180,2026-10-15,delivered,R-02,2026-10-15 13:01
+DX-10233,Bhavya Prasad,97632 01632,Hebbal,"Manyata Tech Park, Pine Block",Veg Basic,Rajma Chawal,1,110,2026-10-14,delivered,R-09,2026-10-14 13:27
+DX-10694,Tanvi Kulkarni,9349578856,Electronic City,Wipro Campus Phase 1,Veg Basic,Sambar Rice + Poriyal,1,110,2026-10-23,scheduled,R-08,2026-10-23 13:02
+DX-10480,AMAN SINGH,7102499471,Hebbal,"Embassy Manyata, Mfar Green Heart",Non-Veg Premium,Fish Curry Meals,1,₹180,19/10/2026,delivered,R-10,2026-10-19 13:28
+DX-10475,Sandeep Menon,7710947775,HSR Layout,"Agara Lake Rd, Tech Square",Jain Special,Jain Veg Pulao,1,130,2026-10-19,delivered,R-12,2026-10-19 12:31
+DX-10519,  gaurav pillai ,8348734714,Whitefield,Brigade Tech Gardens,Veg Basic,Rajma Chawal,1,110,2026-10-20,delivered,R-06,2026-10-20 13:17
+DX-10685,Irfan Iyer,7236231665,Hebbal,"Embassy Manyata, Mfar Green Heart",Veg Premium,Malai Kofta Thali,1,150,2026-10-23,skipped,R-09,
+DX-10485,Aarav Agarwal,6043321819,MG Road,Prestige Meridian 2,Veg Basic,Veg Pulao + Raita,2,220,2026-10-20,delivered,R-09,2026-10-20 13:09
+DX-10529,Yash  Hegde,08075273545,Bellandur,"Prestige Tech Park, Jacaranda",Non-Veg Premium,Chicken Biryani + Raita,1,180,2026-10-20,skipped,R-11,
+DX-10395,Ramya  Kulkarni,+917754330365,Bellandur,"Prestige Tech Park, Jacaranda",Non-Veg Premium,Chicken Biryani + Raita,1,180,17/10/2026,delivered,R-07,2026-10-17 12:43
+DX-10709,Rohan Iyer,89593 10341,Whitefield,"Prestige Shantiniketan, Tower B",Non-Veg Premium,Andhra Chicken Thali,1,180,2026-10-24,scheduled,R-05,2026-10-24 13:18
+DX-10717,Diya Gowda,88963 83465,Hebbal,"Manyata Tech Park, Pine Block",Non-Veg Premium,Andhra Chicken Thali,1,180,2026-10-24,scheduled,R-10,2026-10-24 13:34
+DX-10363,Pavan Mehta,7867749649,Koramangala,"Salarpuria Hallmark, 5th Block",Veg Premium,Malai Kofta Thali,1,150,16/10/2026,delivered,R-02,2026-10-16 13:01
+DX-10536,Keerthi Agarwal,7412328120,MG Road,"UB City, Concorde Block",Veg Premium,Kadai Veg + Butter Naan,1,150,20-Oct-2026,delivered,R-03,2026-10-20 12:50
+DX-10208,Rahul Khan,9101226916,MG Road,"UB City, Concorde Block",Veg Premium,Palak Paneer Thali,1,Rs. 150.00,14/10/2026,delivered,R-03,2026-10-14 12:48
+DX-10649,Simran Joshi,+91-8655125674,MG Road,"UB City, Concorde Block",Non-Veg Premium,Andhra Chicken Thali,1,180,22/10/2026,scheduled,R-09,2026-10-22 13:37
+DX-10720,Meghana  Naidu,9566701065,Indiranagar,"HAL 2nd Stage, Indus Towers",Veg Basic,Bisi Bele Bath,1,110,24/10/2026,scheduled,R-09,2026-10-24 12:57
+DX-10635,Mohan Iyer,8067165726,HSR Layout,"Agara Lake Rd, Tech Square",Non-Veg Premium,Andhra Chicken Thali,1,₹180,2026-10-22,scheduled,R-04,2026-10-22 13:31
+DX-10739,Bhavya  Prasad,9763201632,Hebbal,"Manyata Tech Park, Pine Block",Veg Basic,Sambar Rice + Poriyal,1,110,2026-10-24,scheduled,R-09,2026-10-24 12:43
+DX-10319,Siddharth Pillai,7423884969,MG Road,Prestige Meridian 2,Veg Basic,Veg Pulao + Raita,1,110,2026-10-16,delivered,R-09,2026-10-16 13:41
+DX-10415,Tanvi Kulkarni,93495 78856,Electronic City,Wipro Campus Phase 1,Veg Basic,Rajma Chawal,1,110,17/10/2026,delivered,R-08,2026-10-17 13:05
+DX-10425,Riya Das,+916490278742,MG Road,Prestige Meridian 2,Veg Premium,Malai Kofta Thali,1,150,2026-10-17,delivered,R-09,2026-10-17 13:18
+DX-10269,Kavya Iyer,7473829973,Hebbal,"Manyata Tech Park, Pine Block",Non-Veg Premium,Egg Curry + Ghee Rice,1,180,2026-10-15,delivered,R-09,2026-10-15 13:07
+DX-10453,Nandini Verma,9850142940,Indiranagar,"HAL 2nd Stage, Indus Towers",Veg Premium,Kadai Veg + Butter Naan,1,150,2026-10-19,delivered,R-03,2026-10-19 13:15
+DX-10747,Anita Das,7745299124,Indiranagar,"CMH Rd, Shree Complex",Veg Premium,Malai Kofta Thali,1,₹150,2026-10-24,scheduled,R-09,2026-10-24 12:50
+DX-10330,Divya Gowda,6812191361,Whitefield,"ITPL, Discoverer Bldg",Veg Premium,Palak Paneer Thali,2,Rs. 300.00,2026-10-16,delivered,R-05,2026-10-16 13:04
+DX-10405,IRFAN IYER,07236231665,Hebbal,"Embassy Manyata, Mfar Green Heart",Veg Premium,Kadai Veg + Butter Naan,1,150,2026-10-17,delivered,R-09,2026-10-17 13:38
+DX-10331,Shruti  Bhat,8435346247,Electronic City,Infosys Gate 2,Non-Veg Premium,Chicken Curry + Jeera Rice,1,Rs. 180.00,2026-10-16,delivered,R-08,2026-10-16 12:58
+DX-10647,Kunal Khan,+919719065940,Indiranagar,"CMH Rd, Shree Complex",Veg Basic,Bisi Bele Bath,1,110,22/10/2026,scheduled,R-03,2026-10-22 12:48
+DX-10698,Pavan Mehta,7867749649,Koramangala,"Salarpuria Hallmark, 5th Block",Veg Premium,Veg Biryani + Mirchi Salan,1,₹150,23/10/2026,scheduled,R-01,2026-10-23 12:46
+DX-10525,Anita Das,7745299124,Indiranagar,"CMH Rd, Shree Complex",Veg Premium,Paneer Butter Masala Thali,1,150,2026-10-20,delivered,R-03,2026-10-20 13:28
+DX-10648,Riya  Das,+916490278742,MG Road,Prestige Meridian 2,Veg Premium,Paneer Butter Masala Thali,1,150,2026-10-22,scheduled,R-03,2026-10-22 13:31
+DX-10393,Deepak Bhat,70450 53315,MG Road,Prestige Meridian 2,Jain Special,Jain Veg Pulao,1,130,2026-10-17,delivered,R-09,2026-10-17 13:14
+DX-10703,Riya Das,6490278742,MG Road,Prestige Meridian 2,Veg Premium,Veg Biryani + Mirchi Salan,1,150,2026-10-23,scheduled,R-03,2026-10-23 12:47
+DX-10252,Keerthi Agarwal,+917412328120,MG Road,"UB City, Concorde Block",Veg Premium,Kadai Veg + Butter Naan,1,150,14/10/2026,delivered,R-03,2026-10-14 13:17
+DX-10214,Kavya Iyer,7473829973,Hebbal,"Manyata Tech Park, Pine Block",Non-Veg Premium,Chicken Curry + Jeera Rice,1,₹180,2026-10-14,delivered,R-09,2026-10-14 13:03
+DX-10738,  swati naidu ,8332003791,Hebbal,"Manyata Tech Park, Pine Block",Veg Premium,Kadai Veg + Butter Naan,1,150,2026-10-24,scheduled,R-10,2026-10-24 12:42
+DX-10314,Aarav Agarwal,6043321819,MG Road,Prestige Meridian 2,Veg Basic,Rajma Chawal,2,220,16-Oct-2026,skipped,R-09,
+DX-10552,Kavya Iyer,7473829973,Hebbal,"Manyata Tech Park, Pine Block",Non-Veg Premium,Andhra Chicken Thali,1,₹180,21/10/2026,out_for_delivery,R-09,2026-10-21 13:34
+DX-10283,Varun Bhat,6693406088,Whitefield,Brigade Tech Gardens,Veg Basic,Sambar Rice + Poriyal,2,220,2026-10-15,delivered,R-06,2026-10-15 13:00
+DX-10663,Meghana Naidu,95667 01065,Indiranagar,"HAL 2nd Stage, Indus Towers",Veg Basic,Dal Tadka + 3 Roti,1,110,23/10/2026,scheduled,R-09,2026-10-23 13:28
+DX-10561,Vikram  Agarwal,+91-8278680112,Koramangala,"Salarpuria Hallmark, 5th Block",Non-Veg Premium,Fish Curry Meals,1,180,21/10/2026,delivered,R-02,2026-10-21 13:35
+DX-10469,Girish Mehta,+91-9769453147,Whitefield,Brigade Tech Gardens,Non-Veg Premium,Fish Curry Meals,1,180,2026-10-19,delivered,R-06,2026-10-19 12:46
+DX-10439,  ishita kulkarni ,6509839301,Koramangala,"WeWork Koramangala, 80 Feet Rd",Veg Basic,Dal Tadka + 3 Roti,1,110,2026-10-19,delivered,R-02,2026-10-19 12:58
+DX-10300,Yash Hegde,8075273545,Bellandur,"Prestige Tech Park, Jacaranda",Non-Veg Premium,Chicken Curry + Jeera Rice,1,180,2026-10-15,delivered,R-11,2026-10-15 12:58
+DX-10491,Rahul Khan,9101226916,MG Road,"UB City, Concorde Block",Veg Premium,Palak Paneer Thali,1,150,2026-10-20,delivered,R-09,2026-10-20 13:29
+DX-10725,Shruti Bhat,+91-8435346247,Electronic City,Infosys Gate 2,Non-Veg Premium,Andhra Chicken Thali,1,180,24-Oct-2026,scheduled,R-08,2026-10-24 12:52
+DX-10383,Meghana Naidu,+919566701065,Indiranagar,"HAL 2nd Stage, Indus Towers",Veg Basic,Dal Tadka + 3 Roti,1,₹110,2026-10-17,skipped,R-03,
+DX-10714,Pranav Fernandes,6184514627,Koramangala,"WeWork Koramangala, 80 Feet Rd",Jain Special,Jain Veg Pulao,1,Rs. 130.00,2026-10-24,scheduled,R-01,2026-10-24 12:59
+DX-10574,Irfan Iyer,7236231665,Hebbal,"Embassy Manyata, Mfar Green Heart",Veg Premium,Kadai Veg + Butter Naan,1,150,2026-10-21,out_for_delivery,R-09,2026-10-21 12:43
+DX-10689,Anita Das,77452 99124,Indiranagar,"CMH Rd, Shree Complex",Veg Premium,Paneer Butter Masala Thali,1,150,2026-10-23,scheduled,R-03,2026-10-23 12:58
+DX-10309,Sowmya  Reddy,91 7447134936,Indiranagar,"HAL 2nd Stage, Indus Towers",Veg Premium,Palak Paneer Thali,1,150,2026-10-15,delivered,R-09,2026-10-15 13:03
+DX-10216,Priya Rao,91 9247317810,Koramangala,"Salarpuria Hallmark, 5th Block",Jain Special,Jain Veg Pulao,1,130,2026-10-14,delivered,R-02,2026-10-14 12:51
+DX-10437,Ananya Banerjee,84303 91171,HSR Layout,"Sector 6, Glen Plaza",Veg Basic,Chole + Jeera Rice,1,110,2026-10-19,delivered,R-12,2026-10-19 13:09
+DX-10484,Harsha Iyer,08451680876,Koramangala,"WeWork Koramangala, 80 Feet Rd",Veg Basic,Bisi Bele Bath,1,110,2026-10-19,delivered,R-02,2026-10-19 13:03
+DX-10305,Sandeep Menon,+91-7710947775,HSR Layout,"Agara Lake Rd, Tech Square",Jain Special,Jain Veg Pulao,1,130,15/10/2026,delivered,R-04,2026-10-15 13:34
+DX-10531,Tanvi  Kulkarni,9349578856,Electronic City,Wipro Campus Phase 1,Veg Basic,Veg Pulao + Raita,1,Rs. 110.00,2026-10-20,delivered,R-12,2026-10-20 13:07
+DX-10576,Sana Sharma,95627 29806,Koramangala,"WeWork Koramangala, 80 Feet Rd",Veg Basic,Dal Tadka + 3 Roti,1,110,2026-10-21,preparing,R-02,2026-10-21 13:14
+DX-10507,VIKRAM AGARWAL,8278680112,Koramangala,"Salarpuria Hallmark, 5th Block",Non-Veg Premium,Andhra Chicken Thali,1,180,2026-10-20,delivered,R-01,2026-10-20 13:07
+DX-10397,  varun bhat ,6693406088,Whitefield,Brigade Tech Gardens,Veg Basic,Sambar Rice + Poriyal,2,220,2026-10-17,delivered,R-06,2026-10-17 13:31
+DX-10442,Priya Rao,9247317810,Koramangala,"Salarpuria Hallmark, 5th Block",Jain Special,Jain Dal Khichdi,1,130,2026-10-19,delivered,R-02,2026-10-19 13:01
+DX-10524,Joseph Kamath,6531003309,HSR Layout,"27th Main, Sector 1, Cowork Hub",Veg Basic,Chole + Jeera Rice,1,₹110,20-Oct-2026,delivered,R-12,2026-10-20 13:03
+DX-10237,Sana Sharma,09562729806,Koramangala,"WeWork Koramangala, 80 Feet Rd",Veg Basic,Sambar Rice + Poriyal,1,110,2026-10-14,delivered,R-02,2026-10-14 13:28
+DX-10615,  suresh mehta ,7534874016,Bellandur,"RMZ Ecospace, Bldg 4",Veg Basic,Rajma Chawal,1,110,2026-10-22,scheduled,R-11,2026-10-22 12:50
+DX-10495,Diya Gowda,8896383465,Hebbal,"Manyata Tech Park, Pine Block",Non-Veg Premium,Andhra Chicken Thali,1,180,2026-10-20,delivered,R-10,2026-10-20 13:13
+DX-10339,Nandini Verma,9850142940,Indiranagar,"HAL 2nd Stage, Indus Towers",Veg Premium,Kadai Veg + Butter Naan,1,150,2026-10-16,delivered,R-09,2026-10-16 13:17
+DX-10226,Ramya Kulkarni,7754330365,Bellandur,"Prestige Tech Park, Jacaranda",Non-Veg Premium,Chicken Biryani + Raita,1,180,14/10/2026,delivered,R-11,2026-10-14 12:45
+DX-10230,Akshay Hegde,7994680443,MG Road,"UB City, Concorde Block",Non-Veg Premium,Chicken Biryani + Raita,1,180,2026-10-14,delivered,R-09,2026-10-14 13:10
+DX-10587,ABHISHEK MEHTA,8134352408,HSR Layout,"Sector 6, Glen Plaza",Veg Basic,Veg Pulao + Raita,1,₹110,2026-10-21,delivered,R-04,2026-10-21 12:48
+DX-10555,Sneha Gowda,09773602606,Bellandur,"Prestige Tech Park, Jacaranda",Non-Veg Premium,Egg Curry + Ghee Rice,1,180,2026-10-21,Out for delivery,R-07,2026-10-21 13:29
+DX-10298,Mohan Iyer,08067165726,HSR Layout,"Agara Lake Rd, Tech Square",Non-Veg Premium,Fish Curry Meals,1,180,2026-10-15,delivered,R-12,2026-10-15 12:51
+DX-10656,SIDDHARTH PILLAI,74238 84969,MG Road,Prestige Meridian 2,Veg Basic,Dal Tadka + 3 Roti,1,110,2026-10-23,scheduled,R-03,2026-10-23 12:48
+DX-10605,Diya Gowda,8896383465,Hebbal,"Manyata Tech Park, Pine Block",Non-Veg Premium,Chicken Biryani + Raita,1,₹180,22/10/2026,scheduled,R-10,2026-10-22 13:01
+DX-10454,Varun Bhat,+916693406088,Whitefield,Brigade Tech Gardens,Veg Basic,Chole + Jeera Rice,2,220,2026-10-19,delivered,R-06,2026-10-19 13:09
+DX-10755,Pavan Mehta,7867749649,Koramangala,"Salarpuria Hallmark, 5th Block",Veg Premium,Veg Biryani + Mirchi Salan,1,150,2026-10-24,scheduled,R-01,2026-10-24 13:13
+DX-10307,Pavan Mehta,7867749649,Koramangala,"Salarpuria Hallmark, 5th Block",Veg Premium,Kadai Veg + Butter Naan,1,₹150,2026-10-15,delivered,R-01,2026-10-15 13:13
+DX-10247,Ritika Patil,7135182337,Bellandur,"Embassy Tech Village, Block 9",Non-Veg Premium,Andhra Chicken Thali,1,180,2026-10-14,DELIVERED,R-11,2026-10-14 13:12
+DX-10312,  simran joshi ,86551 25674,MG Road,"UB City, Concorde Block",Non-Veg Premium,Andhra Chicken Thali,1,180,2026-10-15,delivered,R-03,2026-10-15 13:01
+DX-10748,Mohan Iyer,+918067165726,HSR Layout,"Agara Lake Rd, Tech Square",Non-Veg Premium,Andhra Chicken Thali,1,180,2026-10-24,scheduled,R-04,2026-10-24 12:39
+DX-10206,Arjun  Prasad,7503056413,Electronic City,Velankani Tech Park,Veg Basic,Rajma Chawal,1,110,2026-10-14,delivered,R-08,2026-10-14 13:25
+DX-10440,Kavya Iyer,7473829973,Hebbal,"Manyata Tech Park, Pine Block",Non-Veg Premium,Andhra Chicken Thali,1,180,2026-10-19,delivered,R-10,2026-10-19 12:47
+DX-10421,  keerthi agarwal ,7412328120,MG Road,"UB City, Concorde Block",Veg Premium,Veg Biryani + Mirchi Salan,1,150,2026-10-17,delivered,R-09,2026-10-17 13:00
+DX-10461,Irfan Iyer,07236231665,Hebbal,"Embassy Manyata, Mfar Green Heart",Veg Premium,Veg Biryani + Mirchi Salan,1,₹150,2026-10-19,delivered,R-10,2026-10-19 13:14
+DX-10482,Riya Das,6490278742,MG Road,Prestige Meridian 2,Veg Premium,Palak Paneer Thali,1,150,2026-10-19,delivered,R-03,2026-10-19 13:11
+DX-10406,Farhan  Hegde,6967054668,Whitefield,"Prestige Shantiniketan, Tower B",Veg Premium,Veg Biryani + Mirchi Salan,1,Rs. 150.00,2026-10-17,delivered,R-06,2026-10-17 13:22
+DX-10365,Sowmya Reddy,+91-7447134936,Indiranagar,"HAL 2nd Stage, Indus Towers",Veg Premium,Malai Kofta Thali,1,150,2026-10-16,delivered,R-03,2026-10-16 13:00
+DX-10736,Akshay Hegde,79946 80443,MG Road,"UB City, Concorde Block",Non-Veg Premium,Fish Curry Meals,1,180,2026-10-24,scheduled,R-03,2026-10-24 13:25
+DX-10428,Aarav  Agarwal,6043321819,MG Road,Prestige Meridian 2,Veg Basic,Dal Tadka + 3 Roti,2,220,2026-10-19,delivered,R-09,2026-10-19 13:29
+DX-10759,Riya Das,+916490278742,MG Road,Prestige Meridian 2,Veg Premium,Kadai Veg + Butter Naan,1,150,24-Oct-2026,scheduled,R-09,2026-10-24 12:43
+DX-10697,Naveen Nair,6671902294,Indiranagar,"HAL 2nd Stage, Indus Towers",Jain Special,Jain Dal Khichdi,2,260,2026-10-23,scheduled,R-03,2026-10-23 13:37
+DX-10341,Tejas Banerjee,08951484656,Bellandur,"Embassy Tech Village, Block 9",Veg Premium,Palak Paneer Thali,1,150,2026-10-16,delivered,R-07,2026-10-16 13:08
+DX-10599,KARTHIK AGARWAL,+91-8255341928,Whitefield,Brigade Tech Gardens,Veg Basic,Rajma Chawal,1,110,2026-10-22,scheduled,R-05,2026-10-22 12:46
+DX-10293,Sana Sharma,12345,Koramangala,"WeWork Koramangala, 80 Feet Rd",Veg Basic,Sambar Rice + Poriyal,1,110,15/10/2026,delivered,R-01,2026-10-15 13:26
+DX-10537,Aman Singh,7102499471,Hebbal,"Embassy Manyata, Mfar Green Heart",Non-Veg Premium,Chicken Curry + Jeera Rice,1,180,20-Oct-2026,delivered,R-10,2026-10-20 13:31
+DX-10210,Nikhil Khan,07814893252,Koramangala,"Salarpuria Hallmark, 5th Block",Veg Premium,Kadai Veg + Butter Naan,1,150,14/10/2026,delivered,R-02,2026-10-14 13:10
+DX-10458,Bhavya Prasad,91 9763201632,Hebbal,"Manyata Tech Park, Pine Block",Veg Basic,Dal Tadka + 3 Roti,1,Rs. 110.00,2026-10-19,delivered,R-09,2026-10-19 13:02
+DX-10618,Ramya Kulkarni,77543 30365,Bellandur,"Prestige Tech Park, Jacaranda",Non-Veg Premium,Andhra Chicken Thali,1,180,2026-10-22,scheduled,R-11,2026-10-22 13:00
+DX-10297,Rekha Naidu,9631931491,Koramangala,"WeWork Koramangala, 80 Feet Rd",Veg Basic,Bisi Bele Bath,1,Rs. 110.00,2026-10-15,delivered,R-02,2026-10-15 13:16
+DX-10532,Ritika Patil,7135182337,Bellandur,"Embassy Tech Village, Block 9",Non-Veg Premium,Andhra Chicken Thali,1,180,2026-10-20,delivered,R-11,2026-10-20 13:20
+DX-10228,VARUN BHAT,+91-6693406088,Whitefield,Brigade Tech Gardens,Veg Basic,Sambar Rice + Poriyal,2,220,2026-10-14,delivered,R-05,2026-10-14 13:42
+DX-10592,Kunal Khan,97190 65940,Indiranagar,"CMH Rd, Shree Complex",Veg Basic,Rajma Chawal,1,110,2026-10-21,delivered,R-03,2026-10-21 12:57
+DX-10678,Tejas Banerjee,+91-8951484656,Bellandur,"Embassy Tech Village, Block 9",Veg Premium,Kadai Veg + Butter Naan,1,150,2026-10-23,scheduled,R-07,2026-10-23 12:58
+DX-10629,Farhan Hegde,69670 54668,Whitefield,"Prestige Shantiniketan, Tower B",Veg Premium,Kadai Veg + Butter Naan,1,150,2026-10-22,scheduled,R-06,2026-10-22 13:11
+DX-10716,Ananya Banerjee,8430391171,HSR Layout,"Sector 6, Glen Plaza",Veg Basic,Chole + Jeera Rice,1,110,24/10/2026,scheduled,R-04,2026-10-24 12:55
+DX-10213,Ishita Kulkarni,6509839301,Koramangala,"WeWork Koramangala, 80 Feet Rd",Veg Basic,Sambar Rice + Poriyal,1,110,2026-10-14,skipped,R-01,
+DX-10285,  akshay hegde ,7994680443,MG Road,"UB City, Concorde Block",Non-Veg Premium,Egg Curry + Ghee Rice,1,180,2026-10-15,DELIVERED,R-09,2026-10-15 13:07
+DX-10489,ARJUN PRASAD,+917503056413,Electronic City,Velankani Tech Park,Veg Basic,Veg Pulao + Raita,1,110,20/10/2026,delivered,R-08,2026-10-20 13:40
+DX-10343,Swati Naidu,91 8332003791,Hebbal,"Manyata Tech Park, Pine Block",Veg Premium,Kadai Veg + Butter Naan,1,₹150,2026-10-16,delivered,R-09,2026-10-16 13:10
+DX-10690,Mohan Iyer,8067165726,HSR Layout,"Agara Lake Rd, Tech Square",Non-Veg Premium,Fish Curry Meals,1,180,2026-10-23,scheduled,R-12,2026-10-23 12:57
+DX-10224,Deepak Bhat,91 7045053315,MG Road,Prestige Meridian 2,Jain Special,Jain Veg Pulao,1,130,2026-10-14,skipped,R-09,
+DX-10680,Neha Pillai,+91-9738721489,Electronic City,Infosys Gate 2,Veg Basic,Veg Pulao + Raita,1,110,23/10/2026,scheduled,R-12,2026-10-23 13:15
+DX-10622,Akshay Hegde,7994680443,MG Road,"UB City, Concorde Block",Non-Veg Premium,Egg Curry + Ghee Rice,1,180,2026-10-22,skipped,R-03,
+DX-10568,AKSHAY HEGDE,+91-7994680443,MG Road,"UB City, Concorde Block",Non-Veg Premium,Chicken Biryani + Raita,1,₹180,2026-10-21,preparing,R-09,2026-10-21 12:54
+DX-10611,Divya Gowda,68121 91361,Whitefield,"ITPL, Discoverer Bldg",Veg Premium,Palak Paneer Thali,2,300,2026-10-22,scheduled,R-05,2026-10-22 13:26
+DX-10399,Akshay Hegde,91 7994680443,MG Road,"UB City, Concorde Block",Non-Veg Premium,Egg Curry + Ghee Rice,1,180,2026-10-17,DELIVERED,R-09,2026-10-17 13:06
+DX-10539,  harsha iyer ,84516 80876,Koramangala,"WeWork Koramangala, 80 Feet Rd",Veg Basic,Dal Tadka + 3 Roti,1,110,2026-10-20,delivered,R-01,2026-10-20 13:34
+DX-10246,Tanvi Kulkarni,93495 78856,Electronic City,Wipro Campus Phase 1,Veg Basic,Dal Tadka + 3 Roti,1,110,2026-10-14,delivered,R-12,2026-10-14 12:55
+DX-10367,Kunal Khan,9719065940,Indiranagar,"CMH Rd, Shree Complex",Veg Basic,Chole + Jeera Rice,1,110,2026-10-16,delivered,R-09,2026-10-16 12:50
+DX-10277,Suresh Mehta,07534874016,Bellandur,"RMZ Ecospace, Bldg 4",Veg Basic,Sambar Rice + Poriyal,1,110,15/10/2026,delivered,R-07,2026-10-15 13:28
+DX-10628,Irfan Iyer,07236231665,Hebbal,"Embassy Manyata, Mfar Green Heart",Veg Premium,Veg Biryani + Mirchi Salan,1,150,2026-10-22,scheduled,R-10,2026-10-22 12:57
+DX-10431,Rohan Iyer,91 8959310341,Whitefield,"Prestige Shantiniketan, Tower B",Non-Veg Premium,Chicken Biryani + Raita,1,₹180,2026-10-19,delivered,R-05,2026-10-19 12:38
+DX-10436,Nikhil Khan,+917814893252,Koramangala,"Salarpuria Hallmark, 5th Block",Veg Premium,Kadai Veg + Butter Naan,1,150,2026-10-19,delivered,R-02,2026-10-19 13:28
+DX-10556,Divya  Gowda,6812191361,Whitefield,"ITPL, Discoverer Bldg",Veg Premium,Paneer Butter Masala Thali,2,300,21/10/2026,out_for_delivery,R-06,2026-10-21 12:59
+DX-10271,Priya Rao,09247317810,Koramangala,"Salarpuria Hallmark, 5th Block",Jain Special,Jain Dal Khichdi,1,130,2026-10-15,delivered,R-01,2026-10-15 13:16
+DX-10268,Diya Gowda,+91-8896383465,Hebbal,"Manyata Tech Park, Pine Block",Non-Veg Premium,Chicken Biryani + Raita,1,180,15/10/2026,delivered,R-10,2026-10-15 13:37
+DX-10671,Suresh Mehta,7534874016,Bellandur,"RMZ Ecospace, Bldg 4",Veg Basic,Sambar Rice + Poriyal,1,110,23-Oct-2026,scheduled,R-07,2026-10-23 13:26
+DX-10600,ARJUN PRASAD,7503056413,Electronic City,Velankani Tech Park,Veg Basic,Veg Pulao + Raita,1,₹110,2026-10-22,scheduled,R-08,2026-10-22 13:16
+DX-10373,Aditya Shetty,8116155940,Hebbal,"Embassy Manyata, Mfar Green Heart",Veg Premium,Veg Biryani + Mirchi Salan,1,150,17-Oct-2026,delivered,R-10,2026-10-17 13:20
+DX-10432,Karthik Agarwal,8255341928,Whitefield,Brigade Tech Gardens,Veg Basic,Sambar Rice + Poriyal,1,₹110,2026-10-19,delivered,R-06,2026-10-19 13:33
+DX-10617,Lakshmi Kapoor,7260256342,Indiranagar,"HAL 2nd Stage, Indus Towers",Veg Basic,Veg Pulao + Raita,2,220,2026-10-22,scheduled,R-09,2026-10-22 13:06
+DX-10359,  ritika patil ,7135182337,Bellandur,"Embassy Tech Village, Block 9",Non-Veg Premium,Andhra Chicken Thali,1,180,2026-10-16,delivered,R-07,2026-10-16 12:35
+DX-10693,Aditi Fernandes,6831367837,Hebbal,"Embassy Manyata, Mfar Green Heart",Veg Premium,Malai Kofta Thali,2,300,2026-10-23,scheduled,R-10,2026-10-23 13:41
+DX-10447,MANOJ PRASAD,8980841241,Indiranagar,"HAL 2nd Stage, Indus Towers",Non-Veg Premium,Andhra Chicken Thali,1,180,2026-10-19,delivered,R-03,2026-10-19 12:46
+DX-10701,Aman Singh,+917102499471,Hebbal,"Embassy Manyata, Mfar Green Heart",Non-Veg Premium,Egg Curry + Ghee Rice,1,180,23-Oct-2026,scheduled,R-10,2026-10-23 12:38
+DX-10223,  vikram agarwal ,+918278680112,Koramangala,"Salarpuria Hallmark, 5th Block",Non-Veg Premium,Fish Curry Meals,1,Rs. 180.00,2026-10-14,delivered,R-02,2026-10-14 13:27
+DX-10235,  gaurav pillai ,+918348734714,Whitefield,Brigade Tech Gardens,Veg Basic,Bisi Bele Bath,1,110,2026-10-14,skipped,R-05,
+DX-10379,Ananya Banerjee,8430391171,HSR Layout,"Sector 6, Glen Plaza",Veg Basic,Dal Tadka + 3 Roti,1,110,2026-10-17,delivered,R-12,2026-10-17 13:14
+DX-10481,Kunal Khan,+919719065940,Indiranagar,"CMH Rd, Shree Complex",Veg Basic,Chole + Jeera Rice,1,110,19-Oct-2026,delivered,R-09,2026-10-19 12:55
+DX-10721,Priya Rao,+91-9247317810,Koramangala,"Salarpuria Hallmark, 5th Block",Jain Special,Jain Paneer Thali,1,₹130,2026-10-24,skipped,R-02,
+DX-10202,Vivaan Khan,6838637940,HSR Layout,"27th Main, Sector 1, Cowork Hub",Non-Veg Premium,Andhra Chicken Thali,1,180,2026-10-14,skipped,R-12,
+DX-10560,Suresh Mehta,+91-7534874016,Bellandur,"RMZ Ecospace, Bldg 4",Veg Basic,Sambar Rice + Poriyal,1,110,2026-10-21,preparing,R-07,2026-10-21 12:51
+DX-10294,Zoya Gowda,64653 75564,MG Road,Prestige Meridian 2,Veg Basic,Sambar Rice + Poriyal,2,220,2026-10-15,delivered,R-09,2026-10-15 12:58
+DX-10311,Kunal Khan,97190 65940,Indiranagar,"CMH Rd, Shree Complex",Veg Basic,Sambar Rice + Poriyal,1,110,2026-10-15,DELIVERED,R-03,2026-10-15 13:18
+DX-10308,  keerthi agarwal ,+917412328120,MG Road,"UB City, Concorde Block",Veg Premium,Malai Kofta Thali,1,150,2026-10-15,delivered,R-03,2026-10-15 13:04
+DX-10528,Girish Mehta,9769453147,Whitefield,Brigade Tech Gardens,Non-Veg Premium,Chicken Curry + Jeera Rice,1,180,2026-10-20,delivered,R-06,2026-10-20 12:54
+DX-10741,Gaurav Pillai,8348734714,Whitefield,Brigade Tech Gardens,Veg Basic,Bisi Bele Bath,1,110,2026-10-24,scheduled,R-06,2026-10-24 13:12
+DX-10416,  ritika patil ,+917135182337,Bellandur,"Embassy Tech Village, Block 9",Non-Veg Premium,Fish Curry Meals,1,180,17/10/2026,delivered,R-07,2026-10-17 13:00
+DX-10733,Nandini Verma,09850142940,Indiranagar,"HAL 2nd Stage, Indus Towers",Veg Premium,Kadai Veg + Butter Naan,1,150,24/10/2026,scheduled,R-09,2026-10-24 13:35
+DX-10273,  pooja bhat ,9234309805,Koramangala,"Embassy Golf Links, Tower C",Veg Basic,Veg Pulao + Raita,1,Rs. 110.00,15-Oct-2026,delivered,R-01,2026-10-15 12:47
+DX-10557,Shruti Bhat,+91-8435346247,Electronic City,Infosys Gate 2,Non-Veg Premium,Chicken Curry + Jeera Rice,1,180,21/10/2026,out_for_delivery,R-08,2026-10-21 12:30
+DX-10731,Lakshmi Kapoor,07260256342,Indiranagar,"HAL 2nd Stage, Indus Towers",Veg Basic,Sambar Rice + Poriyal,2,220,2026-10-24,skipped,R-03,
+DX-10554,Priya  Rao,9247317810,Koramangala,"Salarpuria Hallmark, 5th Block",Jain Special,Jain Veg Pulao,1,₹130,21-Oct-2026,out_for_delivery,R-01,2026-10-21 13:15
+DX-10351,Joseph Kamath,06531003309,HSR Layout,"27th Main, Sector 1, Cowork Hub",Veg Basic,Veg Pulao + Raita,1,110,2026-10-16,delivered,R-04,2026-10-16 13:00
+DX-10646,Aman Singh,7102499471,Hebbal,"Embassy Manyata, Mfar Green Heart",Non-Veg Premium,Chicken Biryani + Raita,1,180,2026-10-22,scheduled,R-10,2026-10-22 13:35
+DX-10392,Vikram Agarwal,82786 80112,Koramangala,"Salarpuria Hallmark, 5th Block",Non-Veg Premium,Chicken Biryani + Raita,1,180,17-Oct-2026,skipped,R-02,
+DX-10357,Aditi Fernandes,6831367837,Hebbal,"Embassy Manyata, Mfar Green Heart",Veg Premium,Kadai Veg + Butter Naan,2,300,2026-10-16,delivered,R-09,2026-10-16 13:29
+DX-10638,ADITI FERNANDES,+916831367837,Hebbal,"Embassy Manyata, Mfar Green Heart",Veg Premium,Paneer Butter Masala Thali,2,300,2026-10-22,scheduled,R-10,2026-10-22 13:11
+DX-10614,Manoj Prasad,+91-8980841241,Indiranagar,"HAL 2nd Stage, Indus Towers",Non-Veg Premium,Chicken Curry + Jeera Rice,1,180,2026-10-22,scheduled,R-09,2026-10-22 13:20
+DX-10279,Deepak Bhat,7045053315,MG Road,Prestige Meridian 2,Jain Special,Jain Dal Khichdi,1,130,2026-10-15,delivered,R-03,2026-10-15 12:55
+DX-10468,Mohan Iyer,+918067165726,HSR Layout,"Agara Lake Rd, Tech Square",Non-Veg Premium,Andhra Chicken Thali,1,180,19/10/2026,delivered,R-04,2026-10-19 12:51
+DX-10221,Manoj Prasad,8980841241,Indiranagar,"HAL 2nd Stage, Indus Towers",Non-Veg Premium,Fish Curry Meals,1,180,2026-10-14,delivered,R-03,2026-10-14 12:51
+DX-10349,Sana Sharma,+919562729806,Koramangala,"WeWork Koramangala, 80 Feet Rd",Veg Basic,Rajma Chawal,1,110,16/10/2026,DELIVERED,R-01,2026-10-16 13:17
+DX-10493,Nikhil Khan,7814893252,Koramangala,"Salarpuria Hallmark, 5th Block",Veg Premium,Veg Biryani + Mirchi Salan,1,150,20/10/2026,delivered,R-01,2026-10-20 13:36
+DX-10607,Meghana Naidu,9566701065,Indiranagar,"HAL 2nd Stage, Indus Towers",Veg Basic,Sambar Rice + Poriyal,1,110,2026-10-22,scheduled,R-09,2026-10-22 13:01
+DX-10262,Karthik Agarwal,+918255341928,Whitefield,Brigade Tech Gardens,Veg Basic,Veg Pulao + Raita,1,110,2026-10-15,delivered,R-06,2026-10-15 12:54
+DX-10642,Sandeep Menon,7710947775,HSR Layout,"Agara Lake Rd, Tech Square",Jain Special,Jain Paneer Thali,1,130,2026-10-22,scheduled,R-04,2026-10-22 13:19
+DX-10410,Rekha Naidu,96319 31491,Koramangala,"WeWork Koramangala, 80 Feet Rd",Veg Basic,Bisi Bele Bath,1,₹110,17/10/2026,delivered,R-01,2026-10-17 13:33
+DX-10509,Lakshmi Kapoor,7260256342,Indiranagar,"HAL 2nd Stage, Indus Towers",Veg Basic,Bisi Bele Bath,2,Rs. 220.00,2026-10-20,delivered,R-03,2026-10-20 12:52
+DX-10549,Nikhil Khan,07814893252,Koramangala,"Salarpuria Hallmark, 5th Block",Veg Premium,Palak Paneer Thali,1,150,2026-10-21,delivered,R-01,2026-10-21 13:05
+DX-10641,Abhishek Mehta,8134352408,HSR Layout,"Sector 6, Glen Plaza",Veg Basic,Dal Tadka + 3 Roti,1,110,2026-10-22,scheduled,R-04,2026-10-22 13:16
+DX-10744,Sana Sharma,9562729806,Koramangala,"WeWork Koramangala, 80 Feet Rd",Veg Basic,Bisi Bele Bath,1,110,24/10/2026,scheduled,R-02,2026-10-24 13:20
+DX-10281,Ramya Kulkarni,+917754330365,Bellandur,"Prestige Tech Park, Jacaranda",Non-Veg Premium,Chicken Biryani + Raita,1,180,15-Oct-2026,delivered,R-11,2026-10-15 12:52
+DX-10217,Sneha Gowda,9773602606,Bellandur,"Prestige Tech Park, Jacaranda",Non-Veg Premium,Chicken Curry + Jeera Rice,1,180,2026-10-14,delivered,R-11,2026-10-14 13:24
+DX-10443,Sneha Gowda,9773602606,Bellandur,"Prestige Tech Park, Jacaranda",Non-Veg Premium,Fish Curry Meals,1,180,19/10/2026,cancelled,R-07,
+DX-10740,Chaitra Pillai,07788957986,Hebbal,"Embassy Manyata, Mfar Green Heart",Non-Veg Premium,Andhra Chicken Thali,1,₹180,2026-10-24,scheduled,R-10,2026-10-24 13:13
+DX-10309,Sowmya  Reddy,91 7447134936,Indiranagar,"HAL 2nd Stage, Indus Towers",Veg Premium,Palak Paneer Thali,1,150,2026-10-15,delivered,R-09,2026-10-15 13:03
+DX-10261,Rohan Iyer,+91-8959310341,Whitefield,"Prestige Shantiniketan, Tower B",Non-Veg Premium,Chicken Biryani + Raita,1,Rs. 180.00,2026-10-15,delivered,R-06,2026-10-15 13:16
+DX-10705,Harsha  Iyer,8451680876,Koramangala,"WeWork Koramangala, 80 Feet Rd",Veg Basic,Chole + Jeera Rice,1,110,2026-10-23,scheduled,R-01,2026-10-23 12:46
+DX-10463,Sana Sharma,09562729806,Koramangala,"WeWork Koramangala, 80 Feet Rd",Veg Basic,Bisi Bele Bath,1,110,19/10/2026,skipped,R-02,
+DX-10580,Rekha Naidu,+919631931491,Koramangala,"WeWork Koramangala, 80 Feet Rd",Veg Basic,Dal Tadka + 3 Roti,1,110,2026-10-21,out_for_delivery,R-01,2026-10-21 13:29
+DX-10435,Pranav Fernandes,61845 14627,Koramangala,"WeWork Koramangala, 80 Feet Rd",Jain Special,Jain Paneer Thali,1,130,2026-10-19,delivered,R-02,2026-10-19 13:15
+DX-10449,Vikram Agarwal,+918278680112,Koramangala,"Salarpuria Hallmark, 5th Block",Non-Veg Premium,Chicken Biryani + Raita,1,180,2026-10-19,delivered,R-01,2026-10-19 13:25
+DX-10266,Nikhil Khan,+917814893252,Koramangala,"Salarpuria Hallmark, 5th Block",Veg Premium,Paneer Butter Masala Thali,1,150,2026-10-15,delivered,R-01,2026-10-15 13:22
+DX-10643,Naveen Nair,+91-6671902294,Indiranagar,"HAL 2nd Stage, Indus Towers",Jain Special,Jain Dal Khichdi,2,260,22-Oct-2026,scheduled,R-09,2026-10-22 13:33
+DX-10274,Divya Gowda,06812191361,Whitefield,"ITPL, Discoverer Bldg",Veg Premium,Palak Paneer Thali,2,300,2026-10-15,delivered,R-06,2026-10-15 13:07
+DX-10284,Tejas Banerjee,8951484656,Bellandur,"Embassy Tech Village, Block 9",Veg Premium,Palak Paneer Thali,1,150,2026-10-15,DELIVERED,R-07,2026-10-15 13:34
+DX-10414,Aditi Fernandes,+91-6831367837,Hebbal,"Embassy Manyata, Mfar Green Heart",Veg Premium,Malai Kofta Thali,2,300,17-Oct-2026,delivered,R-10,2026-10-17 13:23
+DX-10451,  lakshmi kapoor ,7260256342,Indiranagar,"HAL 2nd Stage, Indus Towers",Veg Basic,Dal Tadka + 3 Roti,2,220,2026-10-19,cancelled,R-09,
+DX-10553,Meghana  Naidu,91 9566701065,Indiranagar,"HAL 2nd Stage, Indus Towers",Veg Basic,Chole + Jeera Rice,1,110,2026-10-21,delivered,R-03,2026-10-21 12:50
+DX-10426,Simran Joshi,8655125674,MG Road,"UB City, Concorde Block",Non-Veg Premium,Egg Curry + Ghee Rice,1,180,17/10/2026,DELIVERED,R-03,2026-10-17 13:19
+DX-10644,Pavan Mehta,7867749649,Koramangala,"Salarpuria Hallmark, 5th Block",Veg Premium,Veg Biryani + Mirchi Salan,1,150,2026-10-22,scheduled,R-01,2026-10-22 13:33
+DX-10657,RAHUL KHAN,91012 26916,MG Road,"UB City, Concorde Block",Veg Premium,Kadai Veg + Butter Naan,1,₹150,23/10/2026,scheduled,R-09,2026-10-23 13:21
+DX-10456,Neha Pillai,09738721489,Electronic City,Infosys Gate 2,Veg Basic,Bisi Bele Bath,1,110,19-Oct-2026,delivered,R-12,2026-10-19 13:13
+DX-10372,Vivaan Khan,6838637940,HSR Layout,"27th Main, Sector 1, Cowork Hub",Non-Veg Premium,Chicken Curry + Jeera Rice,1,180,17-Oct-2026,DELIVERED,R-12,2026-10-17 13:33
+DX-10336,Deepak Bhat,7045053315,MG Road,Prestige Meridian 2,Jain Special,Jain Veg Pulao,1,130,2026-10-16,delivered,R-03,2026-10-16 13:04
+DX-10403,Chaitra Pillai,7788957986,Hebbal,"Embassy Manyata, Mfar Green Heart",Non-Veg Premium,Chicken Curry + Jeera Rice,1,180,2026-10-17,delivered,R-10,2026-10-17 13:24
+DX-10466,Anita Das,+917745299124,Indiranagar,"CMH Rd, Shree Complex",Veg Premium,Kadai Veg + Butter Naan,1,₹150,2026-10-19,delivered,R-09,2026-10-19 13:16
+DX-10487,ROHAN IYER,8959310341,Whitefield,"Prestige Shantiniketan, Tower B",Non-Veg Premium,Chicken Curry + Jeera Rice,1,180,2026-10-20,delivered,R-05,2026-10-20 13:08
+DX-10502,Divya Gowda,6812191361,Whitefield,"ITPL, Discoverer Bldg",Veg Premium,Veg Biryani + Mirchi Salan,2,300,20/10/2026,delivered,R-06,2026-10-20 12:51
+DX-10700,  sowmya reddy ,+91-7447134936,Indiranagar,"HAL 2nd Stage, Indus Towers",Veg Premium,Paneer Butter Masala Thali,1,150,2026-10-23,scheduled,R-09,2026-10-23 13:28
+DX-10470,Yash Hegde,+918075273545,Bellandur,"Prestige Tech Park, Jacaranda",Non-Veg Premium,Andhra Chicken Thali,1,180,2026-10-19,delivered,R-11,2026-10-19 13:19
+DX-10726,  harish pillai ,+916183842513,Electronic City,Velankani Tech Park,Veg Basic,Chole + Jeera Rice,1,110,2026-10-24,scheduled,R-12,2026-10-24 13:32
+DX-10390,Manoj Prasad,8980841241,Indiranagar,"HAL 2nd Stage, Indus Towers",Non-Veg Premium,Chicken Biryani + Raita,1,180,2026-10-17,skipped,R-09,
+DX-10240,Anita Das,+917745299124,Indiranagar,"CMH Rd, Shree Complex",Veg Premium,Paneer Butter Masala Thali,1,150,2026-10-14,DELIVERED,R-09,2026-10-14 12:57
+DX-10699,Keerthi  Agarwal,7412328120,MG Road,"UB City, Concorde Block",Veg Premium,Kadai Veg + Butter Naan,1,150,2026-10-23,scheduled,R-03,2026-10-23 13:14
+DX-10665,Sneha Gowda,9773602606,Bellandur,"Prestige Tech Park, Jacaranda",Non-Veg Premium,Egg Curry + Ghee Rice,1,180,2026-10-23,scheduled,R-11,2026-10-23 12:49
+DX-10444,Pooja  Bhat,09234309805,Koramangala,"Embassy Golf Links, Tower C",Veg Basic,Sambar Rice + Poriyal,1,110,2026-10-19,delivered,R-01,2026-10-19 13:05
+DX-10267,Ananya Banerjee,08430391171,HSR Layout,"Sector 6, Glen Plaza",Veg Basic,Rajma Chawal,1,110,2026-10-15,delivered,R-12,2026-10-15 13:18
+DX-10586,Ritika Patil,7135182337,Bellandur,"Embassy Tech Village, Block 9",Non-Veg Premium,Egg Curry + Ghee Rice,1,180,2026-10-21,delivered,R-07,2026-10-21 12:59
+DX-10232,Swati Naidu,8332003791,Hebbal,"Manyata Tech Park, Pine Block",Veg Premium,Palak Paneer Thali,1,150,2026-10-14,delivered,R-09,2026-10-14 13:01
+DX-10664,Priya Rao,9247317810,Koramangala,"Salarpuria Hallmark, 5th Block",Jain Special,Jain Veg Pulao,1,130,2026-10-23,scheduled,R-02,2026-10-23 13:02
+DX-10242,Mohan Iyer,+918067165726,HSR Layout,"Agara Lake Rd, Tech Square",Non-Veg Premium,Andhra Chicken Thali,1,180,14/10/2026,skipped,R-12,
+DX-10411,  mohan iyer ,08067165726,HSR Layout,"Agara Lake Rd, Tech Square",Non-Veg Premium,Egg Curry + Ghee Rice,1,180,2026-10-17,delivered,R-04,2026-10-17 13:08
+DX-10418,Sandeep Menon,7710947775,HSR Layout,"Agara Lake Rd, Tech Square",Jain Special,Jain Paneer Thali,1,130,2026-10-17,delivered,R-04,2026-10-17 12:58
+DX-10565,Nandini  Verma,91 9850142940,Indiranagar,"HAL 2nd Stage, Indus Towers",Veg Premium,Veg Biryani + Mirchi Salan,1,150,2026-10-21,Out for delivery,R-03,2026-10-21 12:42
+DX-10702,Kunal Khan,09719065940,Indiranagar,"CMH Rd, Shree Complex",Veg Basic,Dal Tadka + 3 Roti,1,110,2026-10-23,scheduled,R-09,2026-10-23 13:12
+DX-10251,Pavan Mehta,+917867749649,Koramangala,"Salarpuria Hallmark, 5th Block",Veg Premium,Paneer Butter Masala Thali,1,150,2026-10-14,delivered,R-02,2026-10-14 12:47
+DX-10623,Neha Pillai,+91-9738721489,Electronic City,Infosys Gate 2,Veg Basic,Rajma Chawal,1,110,22/10/2026,scheduled,R-12,2026-10-22 12:43
+DX-10385,Sneha  Gowda,9773602606,Bellandur,"Prestige Tech Park, Jacaranda",Non-Veg Premium,Egg Curry + Ghee Rice,1,180,2026-10-17,delivered,R-11,2026-10-17 13:15
+DX-10299,  girish mehta ,91 9769453147,Whitefield,Brigade Tech Gardens,Non-Veg Premium,Egg Curry + Ghee Rice,1,180,2026-10-15,delivered,R-05,2026-10-15 12:50
+DX-10499,Priya Rao,92473 17810,Koramangala,"Salarpuria Hallmark, 5th Block",Jain Special,Jain Veg Pulao,1,130,2026-10-20,delivered,R-02,2026-10-20 12:49
+DX-10465,Joseph Kamath,6531003309,HSR Layout,"27th Main, Sector 1, Cowork Hub",Veg Basic,Rajma Chawal,1,110,2026-10-19,delivered,R-12,2026-10-19 12:49
+DX-10368,  riya das ,6490278742,MG Road,Prestige Meridian 2,Veg Premium,Veg Biryani + Mirchi Salan,1,150,16/10/2026,cancelled,R-09,
+DX-10254,Aman Singh,71024 99471,Hebbal,"Embassy Manyata, Mfar Green Heart",Non-Veg Premium,Andhra Chicken Thali,1,180,2026-10-14,delivered,R-09,2026-10-14 13:32
+DX-10327,Meghana Naidu,+919566701065,Indiranagar,"HAL 2nd Stage, Indus Towers",Veg Basic,Rajma Chawal,1,110,16/10/2026,delivered,R-03,2026-10-16 13:42
+DX-10745,Zoya Gowda,+916465375564,MG Road,Prestige Meridian 2,Veg Basic,Bisi Bele Bath,2,Rs. 220.00,2026-10-24,scheduled,R-09,2026-10-24 12:58
+DX-10660,Diya Gowda,08896383465,Hebbal,"Manyata Tech Park, Pine Block",Non-Veg Premium,Chicken Biryani + Raita,1,180,2026-10-23,scheduled,R-09,2026-10-23 13:12
+DX-10394,Lakshmi Kapoor,07260256342,Indiranagar,"HAL 2nd Stage, Indus Towers",Veg Basic,Rajma Chawal,2,220,2026-10-17,delivered,R-03,2026-10-17 13:09
+DX-10753,Sandeep Menon,+91-7710947775,HSR Layout,"Agara Lake Rd, Tech Square",Jain Special,Jain Dal Khichdi,1,130,2026-10-24,skipped,R-12,
+DX-10728,Suresh Mehta,+917534874016,Bellandur,"RMZ Ecospace, Bldg 4",Veg Basic,Rajma Chawal,1,110,24/10/2026,scheduled,R-11,2026-10-24 13:44
+DX-10545,Arjun Prasad,07503056413,Electronic City,Velankani Tech Park,Veg Basic,Bisi Bele Bath,1,110,2026-10-21,Out for delivery,R-08,2026-10-21 13:15
+DX-10756,Keerthi Agarwal,+917412328120,MG Road,"UB City, Concorde Block",Veg Premium,Malai Kofta Thali,1,150,2026-10-24,scheduled,R-09,2026-10-24 13:06
+DX-10567,Tejas Banerjee,08951484656,Bellandur,"Embassy Tech Village, Block 9",Veg Premium,Kadai Veg + Butter Naan,1,150,2026-10-21,preparing,R-07,2026-10-21 13:38
+DX-10602,RAHUL KHAN,9101226916,MG Road,"UB City, Concorde Block",Veg Premium,Palak Paneer Thali,1,150,2026-10-22,scheduled,R-09,2026-10-22 13:21
+DX-10542,Aditya  Shetty,08116155940,Hebbal,"Embassy Manyata, Mfar Green Heart",Veg Premium,Kadai Veg + Butter Naan,1,Rs. 150.00,2026-10-21,out_for_delivery,R-10,2026-10-21 13:12
+DX-10243,  girish mehta ,+91-9769453147,Whitefield,Brigade Tech Gardens,Non-Veg Premium,Fish Curry Meals,1,Rs. 180.00,14/10/2026,delivered,R-05,2026-10-14 13:31
+DX-10354,Mohan Iyer,91 8067165726,HSR Layout,"Agara Lake Rd, Tech Square",Non-Veg Premium,Chicken Curry + Jeera Rice,1,180,16-Oct-2026,DELIVERED,R-04,2026-10-16 13:07
+DX-10380,Diya Gowda,8896383465,Hebbal,"Manyata Tech Park, Pine Block",Non-Veg Premium,Chicken Curry + Jeera Rice,1,180,2026-10-17,delivered,R-10,2026-10-17 13:27
+DX-10320,Rahul Khan,9101226916,MG Road,"UB City, Concorde Block",Veg Premium,Kadai Veg + Butter Naan,1,150,16/10/2026,delivered,R-03,2026-10-16 12:59
+DX-10505,Manoj  Prasad,8980841241,Indiranagar,"HAL 2nd Stage, Indus Towers",Non-Veg Premium,Chicken Curry + Jeera Rice,1,180,2026-10-20,delivered,R-03,2026-10-20 13:05
+DX-10474,Abhishek Mehta,81343 52408,HSR Layout,"Sector 6, Glen Plaza",Veg Basic,Veg Pulao + Raita,1,110,2026-10-19,DELIVERED,R-12,2026-10-19 12:38
+DX-10541,Vivaan Khan,+916838637940,HSR Layout,"27th Main, Sector 1, Cowork Hub",Non-Veg Premium,Chicken Curry + Jeera Rice,1,180,21-Oct-2026,out_for_delivery,R-04,2026-10-21 12:44
+DX-10636,Girish Mehta,09769453147,Whitefield,Brigade Tech Gardens,Non-Veg Premium,Egg Curry + Ghee Rice,1,180,2026-10-22,scheduled,R-05,2026-10-22 13:18
+DX-10566,Varun Bhat,91 6693406088,Whitefield,Brigade Tech Gardens,Veg Basic,Dal Tadka + 3 Roti,2,220,21/10/2026,delivered,R-05,2026-10-21 13:36
+DX-10490,Siddharth Pillai,7423884969,MG Road,Prestige Meridian 2,Veg Basic,Bisi Bele Bath,1,110,2026-10-20,delivered,R-03,2026-10-20 13:20
+DX-10498,MEGHANA NAIDU,9566701065,Indiranagar,"HAL 2nd Stage, Indus Towers",Veg Basic,Dal Tadka + 3 Roti,1,110,2026-10-20,DELIVERED,R-03,2026-10-20 13:25
+DX-10746,Joseph Kamath,+916531003309,HSR Layout,"27th Main, Sector 1, Cowork Hub",Veg Basic,Veg Pulao + Raita,1,110,2026-10-24,scheduled,R-04,2026-10-24 13:02
+DX-10613,Harish Pillai,06183842513,Electronic City,Velankani Tech Park,Veg Basic,Dal Tadka + 3 Roti,1,₹110,2026-10-22,scheduled,R-08,2026-10-22 12:59
+DX-10321,Pranav Fernandes,91 6184514627,Koramangala,"WeWork Koramangala, 80 Feet Rd",Jain Special,Jain Paneer Thali,1,₹130,16/10/2026,delivered,R-02,2026-10-16 12:37
+DX-10374,Rohan Iyer,8959310341,Whitefield,"Prestige Shantiniketan, Tower B",Non-Veg Premium,Egg Curry + Ghee Rice,1,180,2026-10-17,delivered,R-06,2026-10-17 13:38
+DX-10433,Arjun Prasad,7503056413,Electronic City,Velankani Tech Park,Veg Basic,Sambar Rice + Poriyal,1,110,19/10/2026,delivered,R-08,2026-10-19 13:09
+DX-10203,Aditya Shetty,8116155940,Hebbal,"Embassy Manyata, Mfar Green Heart",Veg Premium,Veg Biryani + Mirchi Salan,1,150,2026-10-14,delivered,R-10,2026-10-14 13:20
+DX-10578,JOSEPH KAMATH,+91-6531003309,HSR Layout,"27th Main, Sector 1, Cowork Hub",Veg Basic,Sambar Rice + Poriyal,1,110,2026-10-21,delivered,R-04,2026-10-21 12:58
+DX-10751,Ritika Patil,+91-7135182337,Bellandur,"Embassy Tech Village, Block 9",Non-Veg Premium,Chicken Biryani + Raita,1,180,24-Oct-2026,scheduled,R-11,2026-10-24 13:29
+DX-10353,Rekha Naidu,9631931491,Koramangala,"WeWork Koramangala, 80 Feet Rd",Veg Basic,Chole + Jeera Rice,1,110,2026-10-16,delivered,R-02,2026-10-16 12:58
+DX-10430,Aditya Shetty,8116155940,Hebbal,"Embassy Manyata, Mfar Green Heart",Veg Premium,Veg Biryani + Mirchi Salan,1,₹150,19/10/2026,delivered,R-10,2026-10-19 13:27
+DX-10633,Anita Das,+917745299124,Indiranagar,"CMH Rd, Shree Complex",Veg Premium,Palak Paneer Thali,1,150,22/10/2026,scheduled,R-03,2026-10-22 12:58
+DX-10691,Girish  Mehta,9769453147,Whitefield,Brigade Tech Gardens,Non-Veg Premium,Chicken Curry + Jeera Rice,1,₹180,23/10/2026,scheduled,R-05,2026-10-23 12:49
+DX-10658,Pranav Fernandes,6184514627,Koramangala,"WeWork Koramangala, 80 Feet Rd",Jain Special,Jain Veg Pulao,1,₹130,2026-10-23,scheduled,R-02,2026-10-23 12:56
+DX-10225,Lakshmi  Kapoor,+917260256342,Indiranagar,"HAL 2nd Stage, Indus Towers",Veg Basic,Rajma Chawal,2,220,2026-10-14,delivered,R-09,2026-10-14 13:14
+DX-10264,Rahul  Khan,+919101226916,MG Road,"UB City, Concorde Block",Veg Premium,Paneer Butter Masala Thali,1,150,2026-10-15,delivered,R-09,2026-10-15 13:30
+DX-10382,Kavya  Iyer,7473829973,Hebbal,"Manyata Tech Park, Pine Block",Non-Veg Premium,Fish Curry Meals,1,180,2026-10-17,delivered,R-10,2026-10-17 13:35
+DX-10460,Gaurav  Pillai,8348734714,Whitefield,Brigade Tech Gardens,Veg Basic,Veg Pulao + Raita,1,110,2026-10-19,delivered,R-05,2026-10-19 12:35
+DX-10712,Siddharth Pillai,7423884969,MG Road,Prestige Meridian 2,Veg Basic,Sambar Rice + Poriyal,1,110,2026-10-24,scheduled,R-03,2026-10-24 12:44
+DX-10757,Aman Singh,7102499471,Hebbal,"Embassy Manyata, Mfar Green Heart",Non-Veg Premium,Chicken Curry + Jeera Rice,1,180,2026-10-24,scheduled,R-09,2026-10-24 13:27
+DX-10391,Suresh Mehta,7534874016,Bellandur,"RMZ Ecospace, Bldg 4",Veg Basic,Rajma Chawal,1,Rs. 110.00,2026-10-17,skipped,R-11,
+DX-10631,Zoya Gowda,+916465375564,MG Road,Prestige Meridian 2,Veg Basic,Rajma Chawal,2,220,2026-10-22,scheduled,R-03,2026-10-22 12:57
+DX-10732,Ramya Kulkarni,77543 30365,Bellandur,"Prestige Tech Park, Jacaranda",Non-Veg Premium,Andhra Chicken Thali,1,180,24/10/2026,scheduled,R-07,2026-10-24 13:06
+DX-10575,Farhan Hegde,6967054668,Whitefield,"Prestige Shantiniketan, Tower B",Veg Premium,Paneer Butter Masala Thali,1,150,2026-10-21,delivered,R-05,2026-10-21 13:25
+DX-10257,Harsha Iyer,8451680876,Koramangala,"WeWork Koramangala, 80 Feet Rd",Veg Basic,Rajma Chawal,1,₹110,14-Oct-2026,delivered,R-01,2026-10-14 13:23
+DX-10459,Chaitra Pillai,+91-7788957986,Hebbal,"Embassy Manyata, Mfar Green Heart",Non-Veg Premium,Egg Curry + Ghee Rice,1,180,2026-10-19,delivered,R-09,2026-10-19 13:26
+DX-10417,Abhishek Mehta,8134352408,HSR Layout,"Sector 6, Glen Plaza",Veg Basic,Chole + Jeera Rice,1,110,2026-10-17,delivered,R-04,2026-10-17 13:26
+DX-10673,Deepak  Bhat,7045053315,MG Road,Prestige Meridian 2,Jain Special,Jain Veg Pulao,1,130,2026-10-23,scheduled,R-03,2026-10-23 12:57
+DX-10742,Irfan Iyer,7236231665,Hebbal,"Embassy Manyata, Mfar Green Heart",Veg Premium,Malai Kofta Thali,1,₹150,2026-10-24,scheduled,R-10,2026-10-24 13:14
+DX-10597,Aditya Shetty,8116155940,Hebbal,"Embassy Manyata, Mfar Green Heart",Veg Premium,Malai Kofta Thali,1,150,22-Oct-2026,scheduled,R-09,2026-10-22 13:07
+DX-10627,Gaurav Pillai,8348734714,Whitefield,Brigade Tech Gardens,Veg Basic,Rajma Chawal,1,110,2026-10-22,scheduled,R-06,2026-10-22 12:46
+DX-10324,Diya Gowda,8896383465,Hebbal,"Manyata Tech Park, Pine Block",Non-Veg Premium,Andhra Chicken Thali,1,180,2026-10-16,delivered,R-10,2026-10-16 13:18
+DX-10333,Manoj Prasad,8980841241,Indiranagar,"HAL 2nd Stage, Indus Towers",Non-Veg Premium,Fish Curry Meals,1,180,16-Oct-2026,skipped,R-09,
+DX-10504,Harish Pillai,6183842513,Electronic City,Velankani Tech Park,Veg Basic,Dal Tadka + 3 Roti,1,110,2026-10-20,delivered,R-08,2026-10-20 13:33
+DX-10667,  divya gowda ,+916812191361,Whitefield,"ITPL, Discoverer Bldg",Veg Premium,Paneer Butter Masala Thali,2,300,2026-10-23,scheduled,R-06,2026-10-23 13:11
+DX-10608,Priya Rao,9247317810,Koramangala,"Salarpuria Hallmark, 5th Block",Jain Special,Jain Paneer Thali,1,130,2026-10-22,scheduled,R-01,2026-10-22 13:40
+DX-10215,Meghana Naidu,9566701065,Indiranagar,"HAL 2nd Stage, Indus Towers",Veg Basic,Sambar Rice + Poriyal,1,110,2026-10-14,delivered,R-09,2026-10-14 12:44
+DX-10212,Diya Gowda,+918896383465,Hebbal,"Manyata Tech Park, Pine Block",Non-Veg Premium,Egg Curry + Ghee Rice,1,₹180,2026-10-14,delivered,R-09,2026-10-14 13:32
+DX-10282,Nandini Verma,+919850142940,Indiranagar,"HAL 2nd Stage, Indus Towers",Veg Premium,Paneer Butter Masala Thali,1,150,15/10/2026,delivered,R-09,2026-10-15 12:50
+DX-10526,REKHA NAIDU,+919631931491,Koramangala,"WeWork Koramangala, 80 Feet Rd",Veg Basic,Sambar Rice + Poriyal,1,₹110,2026-10-20,delivered,R-01,2026-10-20 12:55
+DX-10588,Sandeep Menon,77109 47775,HSR Layout,"Agara Lake Rd, Tech Square",Jain Special,Jain Dal Khichdi,1,130,2026-10-21,delivered,R-04,2026-10-21 13:32
+DX-10375,Karthik Agarwal,08255341928,Whitefield,Brigade Tech Gardens,Veg Basic,Chole + Jeera Rice,1,110,2026-10-17,cancelled,R-06,
+DX-10668,Shruti Bhat,8435346247,Electronic City,Infosys Gate 2,Non-Veg Premium,Andhra Chicken Thali,1,180,2026-10-23,scheduled,R-08,2026-10-23 13:31
+DX-10360,Abhishek Mehta,8134352408,HSR Layout,"Sector 6, Glen Plaza",Veg Basic,Dal Tadka + 3 Roti,1,110,2026-10-16,delivered,R-04,2026-10-16 13:21
+DX-10483,Simran Joshi,8655125674,MG Road,"UB City, Concorde Block",Non-Veg Premium,Chicken Biryani + Raita,1,180,2026-10-19,delivered,R-03,2026-10-19 13:39
+DX-10462,  farhan hegde ,06967054668,Whitefield,"Prestige Shantiniketan, Tower B",Veg Premium,Paneer Butter Masala Thali,1,150,2026-10-19,delivered,R-06,2026-10-19 13:01
+DX-10248,Abhishek Mehta,8134352408,HSR Layout,"Sector 6, Glen Plaza",Veg Basic,Chole + Jeera Rice,1,110,2026-10-14,cancelled,R-04,
+DX-10310,Aman Singh,7102499471,Hebbal,"Embassy Manyata, Mfar Green Heart",Non-Veg Premium,Andhra Chicken Thali,1,₹180,2026-10-15,delivered,R-09,2026-10-15 13:34
+DX-10346,Gaurav Pillai,+918348734714,Whitefield,Brigade Tech Gardens,Veg Basic,Dal Tadka + 3 Roti,1,110,2026-10-16,delivered,R-06,2026-10-16 12:47
+DX-10477,Pavan Mehta,7867749649,Koramangala,"Salarpuria Hallmark, 5th Block",Veg Premium,Veg Biryani + Mirchi Salan,1,Rs. 150.00,2026-10-19,delivered,R-01,2026-10-19 13:28
+DX-10467,Rekha Naidu,+919631931491,Koramangala,"WeWork Koramangala, 80 Feet Rd",Veg Basic,Dal Tadka + 3 Roti,1,₹110,19-Oct-2026,skipped,R-01,
+DX-10265,Pranav Fernandes,6184514627,Koramangala,"WeWork Koramangala, 80 Feet Rd",Jain Special,Jain Paneer Thali,1,130,2026-10-15,delivered,R-02,2026-10-15 12:48
+DX-10651,Aarav Agarwal,60433 21819,MG Road,Prestige Meridian 2,Veg Basic,Chole + Jeera Rice,2,220,23/10/2026,scheduled,R-03,2026-10-23 13:29
+DX-10579,Anita Das,7745299124,Indiranagar,"CMH Rd, Shree Complex",Veg Premium,Kadai Veg + Butter Naan,1,150,21/10/2026,out_for_delivery,R-09,2026-10-21 13:05
+DX-10569,Neha Pillai,9738721489,Electronic City,Infosys Gate 2,Veg Basic,Dal Tadka + 3 Roti,1,110,2026-10-21,Out for delivery,R-12,2026-10-21 12:50
+DX-10572,Chaitra Pillai,+917788957986,Hebbal,"Embassy Manyata, Mfar Green Heart",Non-Veg Premium,Chicken Curry + Jeera Rice,1,180,2026-10-21,preparing,R-10,2026-10-21 12:40
+DX-10400,Neha  Pillai,9738721489,Electronic City,Infosys Gate 2,Veg Basic,Bisi Bele Bath,1,110,17/10/2026,delivered,R-08,2026-10-17 13:40
+DX-10372,Vivaan Khan,6838637940,HSR Layout,"27th Main, Sector 1, Cowork Hub",Non-Veg Premium,Chicken Curry + Jeera Rice,1,180,17-Oct-2026,DELIVERED,R-12,2026-10-17 13:33
+DX-10476,Naveen Nair,06671902294,Indiranagar,"HAL 2nd Stage, Indus Towers",Jain Special,Jain Paneer Thali,2,260,2026-10-19,delivered,R-09,2026-10-19 12:50
+DX-10219,Divya Gowda,68121 91361,Whitefield,"ITPL, Discoverer Bldg",Veg Premium,Paneer Butter Masala Thali,2,300,14/10/2026,delivered,R-05,2026-10-14 13:00
+DX-10244,Yash Hegde,8075273545,Bellandur,"Prestige Tech Park, Jacaranda",Non-Veg Premium,Fish Curry Meals,1,180,2026-10-14,delivered,R-11,2026-10-14 13:14
+DX-10750,Aditi  Fernandes,68313 67837,Hebbal,"Embassy Manyata, Mfar Green Heart",Veg Premium,Palak Paneer Thali,2,300,2026-10-24,skipped,R-09,
+DX-10652,Aditya Shetty,08116155940,Hebbal,"Embassy Manyata, Mfar Green Heart",Veg Premium,Paneer Butter Masala Thali,1,150,2026-10-23,scheduled,R-10,2026-10-23 12:45
+DX-10305,Sandeep Menon,+91-7710947775,HSR Layout,"Agara Lake Rd, Tech Square",Jain Special,Jain Veg Pulao,1,130,15/10/2026,delivered,R-04,2026-10-15 13:34
+DX-10598,  rohan iyer ,8959310341,Whitefield,"Prestige Shantiniketan, Tower B",Non-Veg Premium,Fish Curry Meals,1,180,2026-10-22,scheduled,R-05,2026-10-22 12:48
+DX-10408,Joseph Kamath,+91-6531003309,HSR Layout,"27th Main, Sector 1, Cowork Hub",Veg Basic,Bisi Bele Bath,1,110,2026-10-17,delivered,R-12,2026-10-17 13:06
+DX-10533,Abhishek Mehta,8134352408,HSR Layout,"Sector 6, Glen Plaza",Veg Basic,Veg Pulao + Raita,1,110,20/10/2026,delivered,R-12,2026-10-20 12:32
+DX-10601,  siddharth pillai ,+91-7423884969,MG Road,Prestige Meridian 2,Veg Basic,Bisi Bele Bath,1,110,2026-10-22,scheduled,R-09,2026-10-22 12:55
+DX-10616,Vikram Agarwal,8278680112,Koramangala,"Salarpuria Hallmark, 5th Block",Non-Veg Premium,Chicken Curry + Jeera Rice,1,180,2026-10-22,scheduled,R-02,2026-10-22 13:35
+DX-10696,Sandeep Menon,+91-7710947775,HSR Layout,"Agara Lake Rd, Tech Square",Jain Special,Jain Dal Khichdi,1,130,2026-10-23,scheduled,R-04,2026-10-23 13:11
+DX-10710,Karthik Agarwal,8255341928,Whitefield,Brigade Tech Gardens,Veg Basic,Bisi Bele Bath,1,110,24/10/2026,scheduled,R-05,2026-10-24 13:12
+DX-10558,Harish Pillai,+916183842513,Electronic City,Velankani Tech Park,Veg Basic,Bisi Bele Bath,1,110,2026-10-21,out_for_delivery,R-12,2026-10-21 13:28
+DX-10427,Harsha Iyer,8451680876,Koramangala,"WeWork Koramangala, 80 Feet Rd",Veg Basic,Bisi Bele Bath,1,110,17/10/2026,skipped,R-01,
+DX-10534,Naveen Nair,6671902294,Indiranagar,"HAL 2nd Stage, Indus Towers",Jain Special,Jain Paneer Thali,2,260,2026-10-20,delivered,R-03,2026-10-20 13:19
+DX-10517,Bhavya  Prasad,09763201632,Hebbal,"Manyata Tech Park, Pine Block",Veg Basic,Dal Tadka + 3 Roti,1,₹110,2026-10-20,delivered,R-09,2026-10-20 13:27
+DX-10604,NIKHIL KHAN,78148 93252,Koramangala,"Salarpuria Hallmark, 5th Block",Veg Premium,Veg Biryani + Mirchi Salan,1,150,22/10/2026,scheduled,R-01,2026-10-22 13:09
+DX-10520,Irfan Iyer,+917236231665,Hebbal,"Embassy Manyata, Mfar Green Heart",Veg Premium,Paneer Butter Masala Thali,1,150,2026-10-20,delivered,R-10,2026-10-20 13:06
+DX-10479,Sowmya Reddy,+91-7447134936,Indiranagar,"HAL 2nd Stage, Indus Towers",Veg Premium,Paneer Butter Masala Thali,1,150,2026-10-19,delivered,R-09,2026-10-19 13:09
+DX-10655,Arjun Prasad,7503056413,Electronic City,Velankani Tech Park,Veg Basic,Rajma Chawal,1,110,23/10/2026,scheduled,R-12,2026-10-23 13:30
+DX-10306,Naveen Nair,66719 02294,Indiranagar,"HAL 2nd Stage, Indus Towers",Jain Special,Jain Dal Khichdi,2,260,2026-10-15,delivered,R-03,2026-10-15 13:24
+DX-10530,Aditi Fernandes,6831367837,Hebbal,"Embassy Manyata, Mfar Green Heart",Veg Premium,Malai Kofta Thali,2,300,2026-10-20,delivered,R-10,2026-10-20 13:30
+DX-10429,Vivaan Khan,06838637940,HSR Layout,"27th Main, Sector 1, Cowork Hub",Non-Veg Premium,Andhra Chicken Thali,1,180,2026-10-19,delivered,R-04,2026-10-19 13:08
+DX-10758,Kunal Khan,97190 65940,Indiranagar,"CMH Rd, Shree Complex",Veg Basic,Dal Tadka + 3 Roti,1,110,2026-10-24,scheduled,R-03,2026-10-24 13:17
+DX-10559,Manoj Prasad,8980841241,Indiranagar,"HAL 2nd Stage, Indus Towers",Non-Veg Premium,Chicken Biryani + Raita,1,180,2026-10-21,Out for delivery,R-09,2026-10-21 13:27
+DX-10276,Harish Pillai,6183842513,Electronic City,Velankani Tech Park,Veg Basic,Chole + Jeera Rice,1,110,2026-10-15,DELIVERED,R-12,2026-10-15 12:44
+DX-10672,Vikram Agarwal,08278680112,Koramangala,"Salarpuria Hallmark, 5th Block",Non-Veg Premium,Chicken Biryani + Raita,1,180,23/10/2026,scheduled,R-02,2026-10-23 13:40
+DX-10513,Tejas Banerjee,89514 84656,Bellandur,"Embassy Tech Village, Block 9",Veg Premium,Veg Biryani + Mirchi Salan,1,150,2026-10-20,delivered,R-11,2026-10-20 13:01
+DX-10471,ADITI FERNANDES,+916831367837,Hebbal,"Embassy Manyata, Mfar Green Heart",Veg Premium,Paneer Butter Masala Thali,2,300,19/10/2026,delivered,R-10,2026-10-19 13:13
+DX-10661,  ishita kulkarni ,+91-6509839301,Koramangala,"WeWork Koramangala, 80 Feet Rd",Veg Basic,Chole + Jeera Rice,1,110,2026-10-23,scheduled,R-01,2026-10-23 13:09
+DX-10344,BHAVYA PRASAD,9763201632,Hebbal,"Manyata Tech Park, Pine Block",Veg Basic,Chole + Jeera Rice,1,₹110,16/10/2026,delivered,R-10,2026-10-16 13:11
+DX-10737,Neha Pillai,+91-9738721489,Electronic City,Infosys Gate 2,Veg Basic,Dal Tadka + 3 Roti,1,110,24-Oct-2026,scheduled,R-12,2026-10-24 12:50
+DX-10205,Karthik Agarwal,8255341928,Whitefield,Brigade Tech Gardens,Veg Basic,Veg Pulao + Raita,1,110,14-Oct-2026,DELIVERED,R-06,2026-10-14 13:40
+DX-10377,Pranav Fernandes,+91-6184514627,Koramangala,"WeWork Koramangala, 80 Feet Rd",Jain Special,Jain Veg Pulao,1,130,2026-10-17,delivered,R-02,2026-10-17 13:24
+DX-10666,Pooja Bhat,+919234309805,Koramangala,"Embassy Golf Links, Tower C",Veg Basic,Dal Tadka + 3 Roti,1,110,2026-10-23,scheduled,R-02,2026-10-23 13:28
+DX-10522,Sana Sharma,09562729806,Koramangala,"WeWork Koramangala, 80 Feet Rd",Veg Basic,Rajma Chawal,1,110,20-Oct-2026,delivered,R-02,2026-10-20 13:19
+DX-10512,Varun Bhat,6693406088,Whitefield,Brigade Tech Gardens,Veg Basic,Veg Pulao + Raita,2,220,2026-10-20,delivered,R-06,2026-10-20 12:53
+DX-10724,Divya Gowda,6812191361,Whitefield,"ITPL, Discoverer Bldg",Veg Premium,Kadai Veg + Butter Naan,2,300,2026-10-24,scheduled,R-06,2026-10-24 13:09
+DX-10630,Sana Sharma,+919562729806,Koramangala,"WeWork Koramangala, 80 Feet Rd",Veg Basic,Sambar Rice + Poriyal,1,110,2026-10-22,scheduled,R-02,2026-10-22 12:56
+DX-10503,Shruti Bhat,8435346247,Electronic City,Infosys Gate 2,Non-Veg Premium,Chicken Curry + Jeera Rice,1,180,2026-10-20,delivered,R-08,2026-10-20 13:27
+DX-10260,Aditya Shetty,+91-8116155940,Hebbal,"Embassy Manyata, Mfar Green Heart",Veg Premium,Veg Biryani + Mirchi Salan,1,₹150,15-Oct-2026,delivered,R-10,2026-10-15 13:18
+DX-10355,Girish Mehta,97694 53147,Whitefield,Brigade Tech Gardens,Non-Veg Premium,Egg Curry + Ghee Rice,1,180,2026-10-16,delivered,R-05,2026-10-16 12:55
+DX-10238,Zoya Gowda,+916465375564,MG Road,Prestige Meridian 2,Veg Basic,Dal Tadka + 3 Roti,2,220,2026-10-14,delivered,R-03,2026-10-14 13:13
+DX-10603,Pranav Fernandes,06184514627,Koramangala,"WeWork Koramangala, 80 Feet Rd",Jain Special,Jain Dal Khichdi,1,130,22/10/2026,scheduled,R-02,2026-10-22 13:14
+DX-10263,Siddharth Pillai,7423884969,MG Road,Prestige Meridian 2,Veg Basic,Sambar Rice + Poriyal,1,110,15-Oct-2026,DELIVERED,R-09,2026-10-15 12:56
+DX-10645,Sowmya Reddy,7447134936,Indiranagar,"HAL 2nd Stage, Indus Towers",Veg Premium,Malai Kofta Thali,1,150,22/10/2026,scheduled,R-09,2026-10-22 12:43
+DX-10369,Simran Joshi,+91-8655125674,MG Road,"UB City, Concorde Block",Non-Veg Premium,Fish Curry Meals,1,180,16/10/2026,DELIVERED,R-03,2026-10-16 12:51
+DX-10612,Shruti Bhat,91 8435346247,Electronic City,Infosys Gate 2,Non-Veg Premium,Andhra Chicken Thali,1,180,2026-10-22,scheduled,R-08,2026-10-22 13:18
+DX-10523,Zoya Gowda,6465375564,MG Road,Prestige Meridian 2,Veg Basic,Chole + Jeera Rice,2,220,2026-10-20,delivered,R-09,2026-10-20 13:17
+DX-10547,Rahul Khan,91012 26916,MG Road,"UB City, Concorde Block",Veg Premium,Kadai Veg + Butter Naan,1,150,2026-10-21,delivered,R-03,2026-10-21 13:26
+DX-10287,Swati Naidu,8332003791,Hebbal,"Manyata Tech Park, Pine Block",Veg Premium,Veg Biryani + Mirchi Salan,1,150,2026-10-15,delivered,R-10,2026-10-15 13:29
+DX-10272,Sneha Gowda,9773602606,Bellandur,"Prestige Tech Park, Jacaranda",Non-Veg Premium,Chicken Curry + Jeera Rice,1,180,15/10/2026,delivered,R-11,2026-10-15 13:33
+DX-10211,Ananya Banerjee,8430391171,HSR Layout,"Sector 6, Glen Plaza",Veg Basic,Veg Pulao + Raita,1,110,2026-10-14,delivered,R-04,2026-10-14 12:52
+DX-10350,Zoya Gowda,6465375564,MG Road,Prestige Meridian 2,Veg Basic,Chole + Jeera Rice,2,220,16/10/2026,delivered,R-09,2026-10-16 12:51
+DX-10654,  karthik agarwal ,8255341928,Whitefield,Brigade Tech Gardens,Veg Basic,Chole + Jeera Rice,1,110,23/10/2026,scheduled,R-05,2026-10-23 12:45
+DX-10231,Neha Pillai,9738721489,Electronic City,Infosys Gate 2,Veg Basic,Dal Tadka + 3 Roti,1,-110,14/10/2026,delivered,R-08,2026-10-14 13:18
+DX-10571,Bhavya Prasad,91 9763201632,Hebbal,"Manyata Tech Park, Pine Block",Veg Basic,Rajma Chawal,1,110,21-Oct-2026,preparing,R-09,2026-10-21 13:26
+DX-10729,Vikram Agarwal,+918278680112,Koramangala,"Salarpuria Hallmark, 5th Block",Non-Veg Premium,Andhra Chicken Thali,1,180,2026-10-24,scheduled,R-01,2026-10-24 12:46
+DX-10670,Manoj Prasad,08980841241,Indiranagar,"HAL 2nd Stage, Indus Towers",Non-Veg Premium,Chicken Biryani + Raita,1,180,2026-10-23,scheduled,R-03,2026-10-23 12:51
+DX-10620,Varun Bhat,6693406088,Whitefield,Brigade Tech Gardens,Veg Basic,Rajma Chawal,2,220,2026-10-22,scheduled,R-06,2026-10-22 12:51
+DX-10624,Swati Naidu,+918332003791,Hebbal,"Manyata Tech Park, Pine Block",Veg Premium,Palak Paneer Thali,1,150,2026-10-22,scheduled,R-09,2026-10-22 13:41
+DX-10640,Ritika Patil,71351 82337,Bellandur,"Embassy Tech Village, Block 9",Non-Veg Premium,Fish Curry Meals,1,180,2026-10-22,scheduled,R-07,2026-10-22 13:32
+DX-10760,Simran Joshi,+918655125674,MG Road,"UB City, Concorde Block",Non-Veg Premium,Fish Curry Meals,1,180,24/10/2026,scheduled,R-03,2026-10-24 12:43
+DX-10434,RAHUL KHAN,91012 26916,MG Road,"UB City, Concorde Block",Veg Premium,Malai Kofta Thali,1,150,2026-10-19,delivered,R-09,2026-10-19 13:25
+DX-10632,Joseph Kamath,6531003309,HSR Layout,"27th Main, Sector 1, Cowork Hub",Veg Basic,Chole + Jeera Rice,1,110,2026-10-22,scheduled,R-04,2026-10-22 13:12
+DX-10356,Yash Hegde,8075273545,Bellandur,"Prestige Tech Park, Jacaranda",Non-Veg Premium,Andhra Chicken Thali,1,180,2026-10-16,delivered,R-11,2026-10-16 12:46
+DX-10754,Naveen  Nair,6671902294,Indiranagar,"HAL 2nd Stage, Indus Towers",Jain Special,Jain Veg Pulao,2,₹260,2026-10-24,scheduled,R-09,2026-10-24 13:05
+DX-10570,Swati Naidu,83320 03791,Hebbal,"Manyata Tech Park, Pine Block",Veg Premium,Palak Paneer Thali,1,150,21/10/2026,delivered,R-09,2026-10-21 13:45
+DX-10625,Bhavya Prasad,97632 01632,Hebbal,"Manyata Tech Park, Pine Block",Veg Basic,Veg Pulao + Raita,1,₹110,2026-10-22,scheduled,R-09,2026-10-22 13:00
+DX-10582,Girish Mehta,9769453147,Whitefield,Brigade Tech Gardens,Non-Veg Premium,Chicken Curry + Jeera Rice,1,Rs. 180.00,21/10/2026,out_for_delivery,R-05,2026-10-21 13:09
+DX-10473,Ritika Patil,7135182337,Bellandur,"Embassy Tech Village, Block 9",Non-Veg Premium,Chicken Biryani + Raita,1,180,2026-10-19,delivered,R-11,2026-10-19 12:51
+DX-10288,Bhavya Prasad,91 9763201632,Hebbal,"Manyata Tech Park, Pine Block",Veg Basic,Chole + Jeera Rice,1,110,2026-10-15,delivered,R-09,2026-10-15 13:36
+DX-10376,Arjun Prasad,7503056413,Electronic City,Velankani Tech Park,Veg Basic,Chole + Jeera Rice,1,110,2026-10-17,delivered,R-08,2026-10-17 13:18
+DX-10718,Ishita Kulkarni,6509839301,Koramangala,"WeWork Koramangala, 80 Feet Rd",Veg Basic,Rajma Chawal,1,Rs. 110.00,24/10/2026,scheduled,R-02,2026-10-24 13:08
+DX-10494,Ananya Banerjee,8430391171,HSR Layout,"Sector 6, Glen Plaza",Veg Basic,Sambar Rice + Poriyal,1,110,20/10/2026,delivered,R-12,2026-10-20 12:56
+DX-10550,Ananya Banerjee,+918430391171,HSR Layout,"Sector 6, Glen Plaza",Veg Basic,Chole + Jeera Rice,1,110,21/10/2026,delivered,R-04,2026-10-21 13:39
+DX-10686,FARHAN HEGDE,+91-6967054668,Whitefield,"Prestige Shantiniketan, Tower B",Veg Premium,Veg Biryani + Mirchi Salan,1,150,2026-10-23,scheduled,R-06,2026-10-23 13:33
+DX-10452,Ramya Kulkarni,+917754330365,Bellandur,"Prestige Tech Park, Jacaranda",Non-Veg Premium,Egg Curry + Ghee Rice,1,180,19/10/2026,DELIVERED,R-07,2026-10-19 13:18
+DX-10207,Siddharth Pillai,7423884969,MG Road,Prestige Meridian 2,Veg Basic,Veg Pulao + Raita,1,110,14/10/2026,delivered,R-09,2026-10-14 12:47
+DX-10626,Chaitra Pillai,91 7788957986,Hebbal,"Embassy Manyata, Mfar Green Heart",Non-Veg Premium,Fish Curry Meals,1,180,22/10/2026,scheduled,R-09,2026-10-22 12:43
+DX-10650,Harsha Iyer,84516 80876,Koramangala,"WeWork Koramangala, 80 Feet Rd",Veg Basic,Sambar Rice + Poriyal,1,110,2026-10-22,scheduled,R-01,2026-10-22 13:45
+DX-10407,Sana Sharma,9562729806,Koramangala,"WeWork Koramangala, 80 Feet Rd",Veg Basic,Rajma Chawal,1,110,2026-10-17,delivered,R-01,2026-10-17 13:10
+DX-10326,Kavya Iyer,07473829973,Hebbal,"Manyata Tech Park, Pine Block",Non-Veg Premium,Chicken Biryani + Raita,1,180,2026-10-16,delivered,R-09,2026-10-16 12:52
+DX-10342,Neha Pillai,+919738721489,Electronic City,Infosys Gate 2,Veg Basic,Dal Tadka + 3 Roti,1,110,2026-10-16,delivered,R-12,2026-10-16 13:08
+DX-10543,Rohan Iyer,+91-8959310341,Whitefield,"Prestige Shantiniketan, Tower B",Non-Veg Premium,Egg Curry + Ghee Rice,1,180,2026-10-21,preparing,R-06,2026-10-21 12:45
+DX-10573,Gaurav Pillai,8348734714,Whitefield,Brigade Tech Gardens,Veg Basic,Bisi Bele Bath,1,₹110,2026-10-21,delivered,R-06,2026-10-21 12:51
+DX-10358,Tanvi Kulkarni,9349578856,Electronic City,Wipro Campus Phase 1,Veg Basic,Chole + Jeera Rice,1,110,2026-10-16,delivered,R-08,2026-10-16 13:22
+DX-10302,Tanvi Kulkarni,93495 78856,Electronic City,Wipro Campus Phase 1,Veg Basic,Sambar Rice + Poriyal,1,110,2026-10-15,delivered,R-12,2026-10-15 13:18
+DX-10711,Arjun Prasad,+917503056413,Electronic City,Velankani Tech Park,Veg Basic,Chole + Jeera Rice,1,110,2026-10-24,scheduled,R-08,2026-10-24 13:11
+DX-10719,Kavya Iyer,7473829973,Hebbal,"Manyata Tech Park, Pine Block",Non-Veg Premium,Fish Curry Meals,1,180,2026-10-24,scheduled,R-09,2026-10-24 13:44
+DX-10653,Rohan Iyer,8959310341,Whitefield,"Prestige Shantiniketan, Tower B",Non-Veg Premium,Andhra Chicken Thali,1,180,2026-10-23,scheduled,R-05,2026-10-23 13:08
+DX-10500,SNEHA GOWDA,9773602606,Bellandur,"Prestige Tech Park, Jacaranda",Non-Veg Premium,Egg Curry + Ghee Rice,1,180,2026-10-20,delivered,R-11,2026-10-20 13:13

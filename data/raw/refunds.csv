@@ -1,0 +1,19 @@
+Date,Customer,Phone,Order No,Reason,Refund Amt,Status,Notes
+15/10/2026,Ritika,+917135182337,DX-10303,Food spilled,₹180,Done,
+16/10/2026,Suresh,7534874016,DX-10334,not delivered!!,110,Done,called customer
+15/10/2026,Vikram,91 8278680112,DX-10278,late,180,PENDING,check with Suresh
+14/10/2026,Ramya,7754330365,DX-10226,Late by 1 hr,₹90,Approved,
+14/10/2026,Chaitra,+917788957986,DX-10234,Wrong order,Rs 90,,called customer
+15/10/2026,Pooja,9234309805,dx10273,late,,Done,
+17/10/2026,Aditya,8116155940,DX-10373,late,150,Done,
+20/10/2026,Girish,09769453147,DX-10528,late,₹180,PENDING,
+19/10/2026,Vikram,8278680112,DX-10449,Food spilled,180,Approved,repeat complaint
+20/10/2026,Rahul,9101226916,DX-10491,late,75,pending,repeat complaint
+17/10/2026,Irfan,7236231665,DX-1O377,Food spilled,150,done,
+20/10/2026,Mohan,8067165726,DX-10527,Late by 1 hr,₹180,PENDING,check with Suresh
+20/10/2026,Suresh,7534874016,DX-10506,Roti missing,₹110,done,check with Suresh
+15/10/2026,Nandini,9850142940,DX-10282,Packet torn,75,Done,
+15/10/2026,Varun,+916693406088,DX-10283,late,₹220,PENDING,repeat complaint
+19/10/2026,Girish,+919769453147,DX-10469,Packet torn,180,,
+17/10/2026,Vivaan,6838637940,DX-10372,cold food,Rs 180,Approved,check with Suresh
+20/10/2026,Riya,6490278742,DX-10538,Roti missing,₹150,Approved,check with Suresh

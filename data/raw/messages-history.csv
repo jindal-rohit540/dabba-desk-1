@@ -1,0 +1,141 @@
+received_at,channel,phone,body,category,handled_by,replied_at
+2026-10-07T09:15:00+05:30,whatsapp,9769453147,"Hi, lunch not reached yet. Order DX-10243",order_status,human,2026-10-07T09:55:00+05:30
+2026-10-07T11:24:00+05:30,email,7423884969,"Food came cold, refund please",refund,human,2026-10-07T11:36:00+05:30
+2026-10-07T11:26:00+05:30,whatsapp,8435346247,"Hi, lunch not reached yet. Order DX-10446",order_status,human,2026-10-07T17:26:00+05:30
+2026-10-07T12:08:00+05:30,whatsapp,7045053315,What is the price for Jain meals?,other,human,2026-10-07T14:18:00+05:30
+2026-10-07T12:15:00+05:30,whatsapp,8896383465,"Pls skip tomorrow, WFH",skip_day,human,2026-10-07T14:25:00+05:30
+2026-10-07T13:01:00+05:30,whatsapp,6531003309,Do you deliver to Sarjapur?,other,human,2026-10-07T14:36:00+05:30
+2026-10-07T13:03:00+05:30,whatsapp,8951484656,Rider was rude,complaint,human,2026-10-07T19:03:00+05:30
+2026-10-07T13:04:00+05:30,whatsapp,6531003309,where is my dabba??,order_status,human,2026-10-07T13:44:00+05:30
+2026-10-07T13:10:00+05:30,whatsapp,8067165726,Do you deliver to Sarjapur?,other,human,2026-10-07T16:10:00+05:30
+2026-10-07T13:21:00+05:30,email,7135182337,skip my dabba tomorrow,skip_day,human,2026-10-07T14:16:00+05:30
+2026-10-07T13:27:00+05:30,whatsapp,6967054668,skip my dabba tomorrow,skip_day,human,2026-10-07T14:07:00+05:30
+2026-10-07T13:46:00+05:30,whatsapp,7102499471,"Third late delivery this week, very bad",complaint,human,2026-10-07T14:26:00+05:30
+2026-10-07T14:11:00+05:30,whatsapp,6183842513,dabba kab aayega bhai,order_status,human,2026-10-07T14:23:00+05:30
+2026-10-07T14:56:00+05:30,whatsapp,6509839301,"Food came cold, refund please",refund,human,2026-10-07T17:56:00+05:30
+2026-10-07T18:10:00+05:30,whatsapp,8075273545,"Pls skip tomorrow, WFH",skip_day,human,2026-10-08T00:10:00+05:30
+2026-10-07T21:36:00+05:30,whatsapp,9769453147,Is the rider lost? Called him twice,order_status,human,2026-10-07T22:31:00+05:30
+2026-10-07T21:38:00+05:30,email,8348734714,where is my dabba??,order_status,human,2026-10-07T22:18:00+05:30
+2026-10-08T10:44:00+05:30,whatsapp,7994680443,"Food came cold, refund please",refund,human,2026-10-08T16:44:00+05:30
+2026-10-08T11:21:00+05:30,whatsapp,6043321819,"Not delivered today, refund my money",refund,human,2026-10-08T17:21:00+05:30
+2026-10-08T12:23:00+05:30,whatsapp,9234309805,Do you have a monthly invoice for my company?,other,human,2026-10-08T16:23:00+05:30
+2026-10-08T12:59:00+05:30,whatsapp,7045053315,"Going home for Diwali, pause next 5 days",skip_day,human,2026-10-08T14:34:00+05:30
+2026-10-08T12:59:00+05:30,whatsapp,8959310341,"Third late delivery this week, very bad",complaint,human,2026-10-08T13:54:00+05:30
+2026-10-08T13:05:00+05:30,whatsapp,6509839301,"It's 1:30, where's my food",order_status,human,2026-10-08T15:15:00+05:30
+2026-10-08T13:09:00+05:30,whatsapp,7045053315,dabba kab aayega bhai,order_status,human,2026-10-08T14:04:00+05:30
+2026-10-08T13:32:00+05:30,whatsapp,6184514627,"Hi, lunch not reached yet. Order DX-10548",order_status,human,2026-10-08T13:57:00+05:30
+2026-10-08T13:55:00+05:30,whatsapp,9631931491,"Not delivered today, refund my money",refund,human,2026-10-08T16:55:00+05:30
+2026-10-08T20:53:00+05:30,whatsapp,9349578856,rider location pls,order_status,human,2026-10-08T21:48:00+05:30
+2026-10-08T21:08:00+05:30,whatsapp,7045053315,"Food came cold, refund please",refund,human,2026-10-08T22:43:00+05:30
+2026-10-09T11:00:00+05:30,whatsapp,8896383465,"Packet was torn, food spilled on bag",complaint,human,2026-10-09T12:35:00+05:30
+2026-10-09T11:25:00+05:30,whatsapp,7423884969,where is my dabba??,order_status,human,2026-10-09T11:50:00+05:30
+2026-10-09T12:29:00+05:30,whatsapp,6671902294,How much time more for lunch?,order_status,human,2026-10-09T13:09:00+05:30
+2026-10-09T12:40:00+05:30,whatsapp,7473829973,Is the rider lost? Called him twice,order_status,human,2026-10-09T14:15:00+05:30
+2026-10-09T13:08:00+05:30,whatsapp,8348734714,"Not delivered today, refund my money",refund,human,2026-10-09T13:48:00+05:30
+2026-10-09T13:44:00+05:30,whatsapp,7412328120,"Not delivered today, refund my money",refund,human,2026-10-09T14:39:00+05:30
+2026-10-09T14:19:00+05:30,email,7260256342,Got veg instead of chicken. Want refund,refund,human,2026-10-09T20:19:00+05:30
+2026-10-09T14:25:00+05:30,whatsapp,9769453147,Can I change plan to non veg?,other,human,2026-10-09T16:00:00+05:30
+2026-10-09T18:06:00+05:30,whatsapp,8655125674,Got veg instead of chicken. Want refund,refund,human,2026-10-09T19:01:00+05:30
+2026-10-10T09:15:00+05:30,whatsapp,7788957986,where is my dabba??,order_status,human,2026-10-10T13:15:00+05:30
+2026-10-10T12:07:00+05:30,whatsapp,6509839301,Do you have a monthly invoice for my company?,other,human,2026-10-10T16:07:00+05:30
+2026-10-10T14:35:00+05:30,whatsapp,7534874016,"Packet was torn, food spilled on bag",complaint,human,2026-10-10T17:35:00+05:30
+2026-10-10T18:25:00+05:30,whatsapp,7473829973,rider location pls,order_status,human,2026-10-10T22:25:00+05:30
+2026-10-10T20:58:00+05:30,whatsapp,7503056413,where is my dabba??,order_status,human,2026-10-11T02:58:00+05:30
+2026-10-10T21:05:00+05:30,email,7473829973,"It's 1:30, where's my food",order_status,human,2026-10-10T21:17:00+05:30
+2026-10-11T10:19:00+05:30,whatsapp,6043321819,Is the rider lost? Called him twice,order_status,human,2026-10-11T12:29:00+05:30
+2026-10-11T10:22:00+05:30,whatsapp,9738721489,"It's 1:30, where's my food",order_status,human,2026-10-11T10:47:00+05:30
+2026-10-11T13:04:00+05:30,email,6812191361,"Hi, lunch not reached yet. Order DX-10502",order_status,human,2026-10-11T16:04:00+05:30
+2026-10-11T13:08:00+05:30,whatsapp,9349578856,Do you have a monthly invoice for my company?,other,human,2026-10-11T19:08:00+05:30
+2026-10-11T13:44:00+05:30,whatsapp,7788957986,How much time more for lunch?,order_status,human,2026-10-11T15:19:00+05:30
+2026-10-11T14:09:00+05:30,whatsapp,8655125674,Can I change plan to non veg?,other,human,2026-10-11T15:24:00+05:30
+2026-10-11T18:28:00+05:30,whatsapp,8255341928,How much time more for lunch?,order_status,human,2026-10-11T19:23:00+05:30
+2026-10-12T09:49:00+05:30,whatsapp,6184514627,where is my dabba??,order_status,human,2026-10-12T11:24:00+05:30
+2026-10-12T12:21:00+05:30,whatsapp,8255341928,Is the rider lost? Called him twice,order_status,human,2026-10-12T13:56:00+05:30
+2026-10-12T12:44:00+05:30,whatsapp,8959310341,"Hi, lunch not reached yet. Order DX-10374",order_status,human,2026-10-12T14:19:00+05:30
+2026-10-12T20:38:00+05:30,email,8655125674,"Packet was torn, food spilled on bag",complaint,human,2026-10-12T21:18:00+05:30
+2026-10-12T20:42:00+05:30,whatsapp,7412328120,"Roti missing again, refund",refund,human,2026-10-12T21:57:00+05:30
+2026-10-12T20:46:00+05:30,email,9631931491,where is my dabba??,order_status,human,2026-10-12T22:21:00+05:30
+2026-10-12T21:46:00+05:30,email,6043321819,"It's 1:30, where's my food",order_status,human,2026-10-12T23:56:00+05:30
+2026-10-13T10:33:00+05:30,email,7710947775,Rider was rude,complaint,human,2026-10-13T11:28:00+05:30
+2026-10-13T11:38:00+05:30,whatsapp,9566701065,"I'm on leave Friday, cancel lunch",skip_day,human,2026-10-13T11:50:00+05:30
+2026-10-13T12:12:00+05:30,whatsapp,8959310341,"It's 1:30, where's my food",order_status,human,2026-10-13T13:07:00+05:30
+2026-10-13T12:41:00+05:30,whatsapp,9349578856,"It's 1:30, where's my food",order_status,human,2026-10-13T12:53:00+05:30
+2026-10-13T13:48:00+05:30,whatsapp,8980841241,"It's 1:30, where's my food",order_status,human,2026-10-13T14:13:00+05:30
+2026-10-13T14:01:00+05:30,whatsapp,7754330365,"Hi, lunch not reached yet. Order DX-10510",order_status,human,2026-10-13T20:01:00+05:30
+2026-10-13T21:56:00+05:30,whatsapp,6831367837,"I'm on leave Friday, cancel lunch",skip_day,human,2026-10-13T23:11:00+05:30
+2026-10-14T10:17:00+05:30,whatsapp,7503056413,rider location pls,order_status,human,2026-10-14T10:29:00+05:30
+2026-10-14T11:16:00+05:30,whatsapp,8655125674,skip my dabba tomorrow,skip_day,human,2026-10-14T12:51:00+05:30
+2026-10-14T11:20:00+05:30,whatsapp,8332003791,"Going home for Diwali, pause next 5 days",skip_day,human,2026-10-14T11:32:00+05:30
+2026-10-14T11:38:00+05:30,email,6831367837,rider location pls,order_status,human,2026-10-14T12:53:00+05:30
+2026-10-14T11:52:00+05:30,whatsapp,8332003791,"Pls skip tomorrow, WFH",skip_day,human,2026-10-14T14:02:00+05:30
+2026-10-14T13:07:00+05:30,whatsapp,7473829973,Can I change plan to non veg?,other,human,2026-10-14T13:32:00+05:30
+2026-10-14T13:10:00+05:30,whatsapp,8430391171,"Hi, lunch not reached yet. Order DX-10267",order_status,human,2026-10-14T17:10:00+05:30
+2026-10-14T13:19:00+05:30,email,8116155940,Is the rider lost? Called him twice,order_status,human,2026-10-14T15:29:00+05:30
+2026-10-14T13:52:00+05:30,email,7534874016,Rider was rude,complaint,human,2026-10-14T16:52:00+05:30
+2026-10-14T14:26:00+05:30,whatsapp,8255341928,"Packet was torn, food spilled on bag",complaint,human,2026-10-14T15:06:00+05:30
+2026-10-14T18:51:00+05:30,email,6693406088,How much time more for lunch?,order_status,human,2026-10-14T20:26:00+05:30
+2026-10-14T20:52:00+05:30,whatsapp,8116155940,"Pls skip tomorrow, WFH",skip_day,human,2026-10-14T21:47:00+05:30
+2026-10-15T10:40:00+05:30,whatsapp,8435346247,where is my dabba??,order_status,human,2026-10-15T11:35:00+05:30
+2026-10-15T11:13:00+05:30,whatsapp,9234309805,Is the rider lost? Called him twice,order_status,human,2026-10-15T15:13:00+05:30
+2026-10-15T12:23:00+05:30,whatsapp,8067165726,"Packet was torn, food spilled on bag",complaint,,
+2026-10-15T12:24:00+05:30,whatsapp,8278680112,Too much oil in the sabzi today,complaint,human,2026-10-15T15:24:00+05:30
+2026-10-15T12:43:00+05:30,whatsapp,6838637940,Can I change plan to non veg?,other,human,2026-10-15T13:08:00+05:30
+2026-10-15T18:40:00+05:30,whatsapp,7814893252,Do you have a monthly invoice for my company?,other,human,2026-10-15T19:35:00+05:30
+2026-10-15T20:15:00+05:30,whatsapp,8278680112,Do you deliver to Sarjapur?,other,human,2026-10-15T21:30:00+05:30
+2026-10-15T21:49:00+05:30,email,6831367837,"Roti missing again, refund",refund,human,2026-10-16T00:49:00+05:30
+2026-10-16T10:17:00+05:30,whatsapp,9850142940,"Not delivered today, refund my money",refund,human,2026-10-16T11:52:00+05:30
+2026-10-16T10:45:00+05:30,whatsapp,7260256342,rider location pls,order_status,human,2026-10-16T13:45:00+05:30
+2026-10-16T10:55:00+05:30,whatsapp,8332003791,Is the rider lost? Called him twice,order_status,human,2026-10-16T11:50:00+05:30
+2026-10-16T12:27:00+05:30,whatsapp,6671902294,"I'm on leave Friday, cancel lunch",skip_day,human,2026-10-16T13:42:00+05:30
+2026-10-16T12:31:00+05:30,whatsapp,6043321819,dabba kab aayega bhai,order_status,human,2026-10-16T14:41:00+05:30
+2026-10-16T12:45:00+05:30,whatsapp,8134352408,"Not delivered today, refund my money",refund,human,2026-10-16T12:57:00+05:30
+2026-10-16T12:46:00+05:30,whatsapp,6490278742,Is the rider lost? Called him twice,order_status,human,2026-10-16T15:46:00+05:30
+2026-10-16T13:27:00+05:30,whatsapp,7994680443,How much time more for lunch?,order_status,human,2026-10-16T14:42:00+05:30
+2026-10-16T14:32:00+05:30,whatsapp,7534874016,Do you deliver to Sarjapur?,other,human,2026-10-16T15:47:00+05:30
+2026-10-16T14:59:00+05:30,whatsapp,8959310341,dabba kab aayega bhai,order_status,human,2026-10-16T15:11:00+05:30
+2026-10-16T18:06:00+05:30,whatsapp,7102499471,"Hi, lunch not reached yet. Order DX-10254",order_status,human,2026-10-16T19:41:00+05:30
+2026-10-16T18:12:00+05:30,email,8430391171,"Going home for Diwali, pause next 5 days",skip_day,human,2026-10-16T19:27:00+05:30
+2026-10-16T20:58:00+05:30,whatsapp,9719065940,"I'm on leave Friday, cancel lunch",skip_day,human,2026-10-16T23:58:00+05:30
+2026-10-16T21:26:00+05:30,whatsapp,9719065940,where is my dabba??,order_status,human,2026-10-17T03:26:00+05:30
+2026-10-17T12:30:00+05:30,whatsapp,8451680876,dabba kab aayega bhai,order_status,human,2026-10-17T14:05:00+05:30
+2026-10-17T12:42:00+05:30,whatsapp,7045053315,where is my dabba??,order_status,,
+2026-10-17T12:46:00+05:30,whatsapp,7814893252,"Packet was torn, food spilled on bag",complaint,human,2026-10-17T13:41:00+05:30
+2026-10-17T12:57:00+05:30,whatsapp,8896383465,"Packet was torn, food spilled on bag",complaint,human,2026-10-17T18:57:00+05:30
+2026-10-17T13:10:00+05:30,whatsapp,7503056413,skip my dabba tomorrow,skip_day,human,2026-10-17T14:25:00+05:30
+2026-10-17T13:16:00+05:30,whatsapp,8451680876,"Going home for Diwali, pause next 5 days",skip_day,human,2026-10-17T14:51:00+05:30
+2026-10-17T18:22:00+05:30,whatsapp,6184514627,"I'm on leave Friday, cancel lunch",skip_day,human,2026-10-18T00:22:00+05:30
+2026-10-17T21:12:00+05:30,email,6490278742,Is the rider lost? Called him twice,order_status,human,2026-10-17T21:24:00+05:30
+2026-10-17T21:25:00+05:30,whatsapp,7814893252,where is my dabba??,order_status,human,2026-10-17T22:05:00+05:30
+2026-10-18T10:23:00+05:30,whatsapp,9763201632,What is the price for Jain meals?,other,human,2026-10-18T10:35:00+05:30
+2026-10-18T12:17:00+05:30,whatsapp,8980841241,Rider was rude,complaint,human,2026-10-18T14:27:00+05:30
+2026-10-18T12:38:00+05:30,whatsapp,9769453147,"Food came cold, refund please",refund,human,2026-10-18T13:53:00+05:30
+2026-10-18T13:07:00+05:30,whatsapp,9763201632,"Pls skip tomorrow, WFH",skip_day,human,2026-10-18T13:47:00+05:30
+2026-10-18T13:29:00+05:30,whatsapp,9773602606,rider location pls,order_status,human,2026-10-18T15:39:00+05:30
+2026-10-18T13:31:00+05:30,whatsapp,8332003791,Do you deliver to Sarjapur?,other,,
+2026-10-18T13:47:00+05:30,whatsapp,7412328120,where is my dabba??,order_status,human,2026-10-18T15:22:00+05:30
+2026-10-18T14:07:00+05:30,whatsapp,6184514627,How much time more for lunch?,order_status,human,2026-10-18T15:02:00+05:30
+2026-10-18T20:08:00+05:30,whatsapp,8067165726,"Going home for Diwali, pause next 5 days",skip_day,human,2026-10-19T02:08:00+05:30
+2026-10-19T10:32:00+05:30,whatsapp,9101226916,Do you have a monthly invoice for my company?,other,human,2026-10-19T13:32:00+05:30
+2026-10-19T11:33:00+05:30,whatsapp,7423884969,"Packet was torn, food spilled on bag",complaint,human,2026-10-19T11:58:00+05:30
+2026-10-19T12:05:00+05:30,email,9566701065,where is my dabba??,order_status,human,2026-10-19T13:40:00+05:30
+2026-10-19T12:26:00+05:30,email,6465375564,dabba kab aayega bhai,order_status,human,2026-10-19T18:26:00+05:30
+2026-10-19T13:36:00+05:30,whatsapp,7045053315,Is the rider lost? Called him twice,order_status,human,2026-10-19T14:51:00+05:30
+2026-10-19T14:16:00+05:30,whatsapp,7473829973,Got veg instead of chicken. Want refund,refund,human,2026-10-19T14:41:00+05:30
+2026-10-19T14:41:00+05:30,whatsapp,8896383465,Do you have a monthly invoice for my company?,other,human,2026-10-19T15:21:00+05:30
+2026-10-19T14:47:00+05:30,whatsapp,7423884969,"Hi, lunch not reached yet. Order DX-10656",order_status,human,2026-10-19T15:12:00+05:30
+2026-10-19T18:11:00+05:30,whatsapp,9234309805,"Roti missing again, refund",refund,human,2026-10-19T20:21:00+05:30
+2026-10-19T20:21:00+05:30,whatsapp,8134352408,Do you have a monthly invoice for my company?,other,human,2026-10-20T00:21:00+05:30
+2026-10-19T20:35:00+05:30,whatsapp,9234309805,where is my dabba??,order_status,human,2026-10-19T22:10:00+05:30
+2026-10-19T20:44:00+05:30,email,8116155940,"Going home for Diwali, pause next 5 days",skip_day,human,2026-10-19T22:19:00+05:30
+2026-10-20T09:03:00+05:30,whatsapp,6490278742,Is the rider lost? Called him twice,order_status,human,2026-10-20T10:38:00+05:30
+2026-10-20T09:17:00+05:30,whatsapp,8067165726,Got veg instead of chicken. Want refund,refund,human,2026-10-20T09:42:00+05:30
+2026-10-20T10:49:00+05:30,email,9631931491,"Packet was torn, food spilled on bag",complaint,human,2026-10-20T12:59:00+05:30
+2026-10-20T11:25:00+05:30,whatsapp,9101226916,Is the rider lost? Called him twice,order_status,human,2026-10-20T13:00:00+05:30
+2026-10-20T12:12:00+05:30,whatsapp,9101226916,"It's 1:30, where's my food",order_status,human,2026-10-20T12:24:00+05:30
+2026-10-20T13:13:00+05:30,whatsapp,7260256342,"Food came cold, refund please",refund,human,2026-10-20T13:38:00+05:30
+2026-10-20T13:32:00+05:30,whatsapp,7534874016,rider location pls,order_status,human,2026-10-20T15:42:00+05:30
+2026-10-20T13:32:00+05:30,whatsapp,8430391171,"Not delivered today, refund my money",refund,human,2026-10-20T15:07:00+05:30
+2026-10-20T13:55:00+05:30,email,8980841241,Too much oil in the sabzi today,complaint,human,2026-10-20T14:07:00+05:30
+2026-10-20T14:54:00+05:30,whatsapp,9566701065,rider location pls,order_status,human,2026-10-20T15:34:00+05:30
+2026-10-20T20:15:00+05:30,whatsapp,9247317810,How much time more for lunch?,order_status,human,2026-10-20T22:25:00+05:30
+2026-10-20T21:05:00+05:30,whatsapp,8951484656,"Going home for Diwali, pause next 5 days",skip_day,human,2026-10-20T22:40:00+05:30
