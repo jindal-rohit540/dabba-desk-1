@@ -15,7 +15,7 @@ dabbadesk/
 ├── app/
 │   ├── page.tsx                 # Landing page (public)
 │   ├── help/                    # Customer help desk (public): page + actions.ts (Server Actions)
-│   ├── dashboard/               # Owner dashboard (Clerk-protected)
+│   ├── dashboard/               # Owner dashboard (auth.protect() in the page)
 │   ├── sign-in/[[...sign-in]]/  # Clerk sign-in page
 │   └── api/
 │       ├── partner/webhook/     # ZipRun delivery updates (shared-secret header)
@@ -61,7 +61,7 @@ dabbadesk/
 ## Tech constraints
 
 - **Next.js 16 App Router**. `cacheComponents` is **disabled** for simplicity. Data pages use `export const dynamic = "force-dynamic"`.
-- **Auth: Clerk** (`proxy.ts` guards `/dashboard`, and pages call `auth()` again).
+- **Auth: Clerk.** `proxy.ts` only runs `clerkMiddleware()`. Every owner page calls `await auth.protect()` and every owner Server Action checks `auth()`. Don't use `createRouteMatcher` (deprecated).
 - **DB: Supabase Postgres** via `@supabase/supabase-js`, **server-side only** with `SUPABASE_SECRET_KEY`. No browser Supabase client.
 - **LLM: Claude** via `@anthropic-ai/sdk`, model `claude-opus-5-5`. Never send phone numbers or addresses to the model.
 - **Tests: Vitest.** No new dependencies without saying so first.

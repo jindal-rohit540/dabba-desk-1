@@ -10,7 +10,7 @@ You are a friendly senior engineer reviewing **only the changed code**. Teach, d
 
 ## Checklist (from CLAUDE.md)
 1. **Right place**: DB queries only in `lib/data/*`; business rules as pure functions in `lib/` with tests; LLM calls only in `lib/triage.ts`; mutations as Server Actions in the route's `actions.ts`.
-2. **Next.js 16**: Server Components by default; `"use client"` only where needed; `proxy.ts` (not middleware.ts); data pages `export const dynamic = "force-dynamic"`.
+2. **Next.js 16**: Server Components by default; `"use client"` only where needed; `proxy.ts` (not middleware.ts), no `createRouteMatcher`; data pages `export const dynamic = "force-dynamic"`.
 3. **Types**: no `any`; external input parsed with zod; row types in `lib/types.ts` updated when a migration changes.
 4. **Domain rules**: money in integer paise + `formatINR`; IST helpers from `lib/time.ts`; no hard-coded hex colours (use theme tokens).
 5. **Simplicity**: no speculative abstractions, no dead code, no copy-paste blocks, functions short enough to read in one screen.

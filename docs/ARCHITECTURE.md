@@ -14,7 +14,7 @@ flowchart LR
   subgraph Vercel["Vercel (Next.js App Router)"]
     H["/help<br/>Server Action"]
     D["/dashboard<br/>Server Components"]
-    P[proxy.ts<br/>Clerk auth guard]
+    P[proxy.ts<br/>clerkMiddleware]
     API1["/api/partner/webhook"]
     API2["/api/whatsapp"]
     CRON["/api/cron/data-check<br/>(Vercel Cron)"]
@@ -149,7 +149,7 @@ erDiagram
 | Customer identity = phone **and** order ID | Phone alone would let anyone read anyone's order. |
 | Money as integer **paise** | No floating-point rounding bugs in refunds. |
 | All dates/times in **IST** (`Asia/Kolkata`) | The business runs in Bengaluru. |
-| Clerk guards `/dashboard` in `proxy.ts` *and* the page calls `auth()` | Defence in depth. The proxy alone is only an optimistic check. |
+| `proxy.ts` only attaches the Clerk session; each page and Server Action protects itself (`auth.protect()` / `auth()`) | Path-matching in a proxy can drift from real routes. Checks live where the data is read. |
 | Partner payloads go through an **adapter** (`lib/partner.ts`) | ZipRun changes formats without notice; only one file has to change. |
 
 ## LLM choice

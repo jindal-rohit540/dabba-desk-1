@@ -1,4 +1,5 @@
 import type { Metadata, Viewport } from "next";
+import { ClerkProvider } from "@clerk/nextjs";
 import { Bricolage_Grotesque, Inter } from "next/font/google";
 import { SiteFooter, SiteHeader } from "@/components/site-chrome";
 import "./globals.css";
@@ -17,9 +18,11 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
   return (
     <html lang="en" className={`${inter.variable} ${bricolage.variable} h-full antialiased`}>
       <body className="flex min-h-full flex-col">
-        <SiteHeader />
-        <main className="flex-1">{children}</main>
-        <SiteFooter />
+        <ClerkProvider>
+          <SiteHeader />
+          <main className="flex-1">{children}</main>
+          <SiteFooter />
+        </ClerkProvider>
       </body>
     </html>
   );

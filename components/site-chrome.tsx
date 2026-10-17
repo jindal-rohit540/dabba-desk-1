@@ -1,7 +1,8 @@
 import Link from "next/link";
+import { Show, UserButton } from "@clerk/nextjs";
 import { Logo } from "@/components/logo";
 
-export function SiteHeader({ right }: { right?: React.ReactNode }) {
+export function SiteHeader() {
   return (
     <header className="sticky top-0 z-30 border-b border-line/80 bg-paper/85 backdrop-blur">
       <div className="mx-auto flex h-16 max-w-6xl items-center justify-between px-4 sm:px-6">
@@ -18,7 +19,11 @@ export function SiteHeader({ right }: { right?: React.ReactNode }) {
           >
             Dashboard
           </Link>
-          {right}
+          <Show when="signed-in">
+            <span className="ml-1 flex items-center">
+              <UserButton />
+            </span>
+          </Show>
         </nav>
       </div>
     </header>
