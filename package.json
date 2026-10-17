@@ -11,7 +11,8 @@
     "test": "vitest run",
     "test:watch": "vitest",
     "format": "prettier --write .",
-    "db:seed": "tsx --env-file=.env.local scripts/seed.ts"
+    "db:seed": "tsx --env-file=.env.local scripts/seed.ts",
+    "smoke:claude": "tsx --env-file=.env.local scripts/smoke-claude.mts"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.135.0",
