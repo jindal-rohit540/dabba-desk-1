@@ -1,36 +1,53 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🍱 DabbaDesk
 
-## Getting Started
+Instant, correct answers for **Dabba Express** customers ("where's my dabba?"), plus an owner dashboard. Built live with **Claude Code** in the *Build & Ship with Claude Code* masterclass.
 
-First, run the development server:
+> Dabba Express is a fictional company created for the class.
 
+**Stack:** Next.js 16 (App Router) · TypeScript · Tailwind v4 · Supabase Postgres · Clerk · Claude API (`claude-opus-5-5`) · Vercel · GitHub Actions · Vitest
+
+## What it does
+| Who | Where | What |
+|---|---|---|
+| Customer | `/help` | Phone + order ID → ask anything → instant reply grounded in *their* order, with a live status card. Skip tomorrow. Pause subscription. |
+| Customer | WhatsApp | Same pipeline via Twilio (`/api/whatsapp`) |
+| Owner | `/dashboard` (Clerk) | KPIs (before vs after reply time), inbox, refund approvals, today's dabbas, data health |
+| ZipRun (delivery partner) | `/api/partner/webhook` | Rider status/ETA updates (v1 + v2 payloads) |
+| Vercel Cron | `/api/cron/data-check` | Nightly data-quality checks |
+
+Architecture and diagrams: [`docs/ARCHITECTURE.md`](docs/ARCHITECTURE.md). Product: [`docs/PRD.md`](docs/PRD.md).
+
+## Run it locally
 ```bash
+npm install
+cp .env.example .env.local          # fill in Supabase + Anthropic keys
+npx clerk@latest init --accountless # temporary Clerk dev keys, no account needed
+npx supabase link --project-ref <ref> && npx supabase db push   # create tables
+npm run db:seed -- --reset --live   # load the messy CSVs (cleaning report printed)
+npm run smoke:claude                # one real Claude call to check your key
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
+The seed prints a demo phone + order ID to try on `/help`.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Useful scripts
+| Command | What |
+|---|---|
+| `npm test` | 80+ unit tests (Vitest), no network needed |
+| `npm run db:seed -- --reset --live` | Wipe + reload demo data, with today's deliveries at "lunch rush" right now |
+| `npm run partner:send -- v1-delayed DX-10563 [--url https://…]` | Pretend to be ZipRun and send a delivery update |
+| `npm run smoke:claude` | Check the Claude API key and see three triaged sample messages |
+| `npm run diwali:rush` | (branch `diwali-rush` only) triple today's orders for the crisis drill |
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Claude Code setup in this repo
+| Thing | Where |
+|---|---|
+| Project memory | `CLAUDE.md` |
+| Subagents | `.claude/agents/`: test writer/runner, security + quality reviewers, data analyst (Supabase MCP), owner explainer, reference scout |
+| Slash commands | `.claude/commands/`: `/create-spec` `/test-feature` `/code-review-feature` `/ship-feature` `/owner-report` `/crisis` `/reseed` |
+| Skills | `.claude/skills/`: `dabba-ui` (design system), `supabase-migration` (with a helper script) |
+| Hooks | `.claude/settings.json` + `.claude/hooks/`: block secrets in prompts, guard dangerous bash, auto-format, session context, desktop notifications |
+| MCP servers | `.mcp.json`: Supabase (read-only), Vercel, Playwright |
+| Specs | `.claude/specs/`: one per feature, the source of truth for tests |
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Checkpoints
+Each stage of the class is tagged: `cp-A` (plan) → `cp-B` (scaffold) → `cp-C` (database) → `cp-D` (help desk + AI) → `cp-E` (Claude Code toolkit) → `cp-F` (dashboard + auth) → `cp-G` (partner webhook + PII) → `cp-H` (CI + cron) → `cp-I` (pause) → `cp-J` (WhatsApp).
