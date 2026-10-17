@@ -4,6 +4,7 @@ import { useActionState, useEffect, useRef, useState } from "react";
 import { Loader2, SendHorizontal, ShieldCheck, UserRound, Zap } from "lucide-react";
 import { askDabbaDesk, type AskResult } from "@/app/help/actions";
 import { OrderStatusCard } from "@/components/order-status-card";
+import { PausePanel } from "@/components/pause-panel";
 import { Badge, buttonStyles, Card } from "@/components/ui";
 import { formatDuration } from "@/lib/format";
 
@@ -37,6 +38,7 @@ export function HelpChat({ initialQuestion = "" }: { initialQuestion?: string })
   }, [state]);
 
   const latestCard = [...turns].reverse().find((t) => t.card)?.card;
+  const isVerified = turns.some((t) => t.verified);
 
   return (
     <div className="grid gap-6 lg:grid-cols-[1fr_340px]">
@@ -145,6 +147,7 @@ export function HelpChat({ initialQuestion = "" }: { initialQuestion?: string })
             Your live order status will appear here.
           </Card>
         )}
+        {isVerified && <PausePanel phone={phone} orderId={orderId} />}
         <Card className="space-y-2 p-5 text-sm">
           <p className="flex items-center gap-2 font-semibold">
             <ShieldCheck className="size-4 text-leaf" /> Your data is safe

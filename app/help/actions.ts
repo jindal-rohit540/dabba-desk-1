@@ -2,8 +2,11 @@
 
 import { z } from "zod";
 import { normalizeOrderId, normalizePhone } from "@/lib/etl/clean";
+import { findVerifiedCustomer } from "@/lib/data/orders";
+import { pauseSubscription } from "@/lib/data/subscriptions";
 import { handleCustomerMessage } from "@/lib/handle-message";
-import { formatTimeIST } from "@/lib/time";
+import { validatePause } from "@/lib/pause";
+import { formatDayIST, formatTimeIST } from "@/lib/time";
 import type { MessageCategory, OrderStatus } from "@/lib/types";
 
 export type OrderCard = {
@@ -22,6 +25,7 @@ export type AskResult =
   | { ok: false; error: string }
   | {
       ok: true;
+      verified: boolean;
       question: string;
       reply: string;
       category: MessageCategory | null;
@@ -56,6 +60,7 @@ export async function askDabbaDesk(_prev: AskResult | null, formData: FormData):
   const today = result.customer?.today;
   return {
     ok: true,
+    verified: result.verified,
     question: parsed.data.message,
     reply: result.reply,
     category: result.category,
@@ -75,5 +80,23 @@ export async function askDabbaDesk(_prev: AskResult | null, formData: FormData):
           lastUpdate: today.events[0] ? formatTimeIST(today.events[0].at) : null,
         }
       : null,
+  };
+}
+
+export type PauseResult = { ok: boolean; message: string } | null;
+
+export async function pauseMySubscription(_prev: PauseResult, formData: FormData): Promise<PauseResult> {
+  const phone = normalizePhone(String(formData.get("phone") ?? ""));
+  const orderId = normalizeOrderId(String(formData.get("orderId") ?? ""));
+  const verified = phone && orderId ? await findVerifiedCustomer(phone, orderId) : null;
+  if (!verified) return { ok: false, message: "We couldn't verify your phone number and order ID." };
+
+  const check = validatePause({ until: String(formData.get("until") ?? "") });
+  if (!check.ok) return { ok: false, message: check.error };
+
+  const skipped = await pauseSubscription(verified.customer.id, check.start, check.until);
+  return {
+    ok: true,
+    message: `Paused ✅ ${skipped} dabba${skipped === 1 ? "" : "s"} skipped. Deliveries resume ${formatDayIST(check.resumeOn)}. Happy travels, ${verified.customer.name.split(" ")[0]}!`,
   };
 }

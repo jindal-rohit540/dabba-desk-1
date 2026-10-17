@@ -56,11 +56,13 @@ export function OrderStatusCard({ card }: { card: OrderCard }) {
       )}
 
       {(card.riderName || card.lastSeenNear) && card.status !== "delivered" && (
-        <p className="mt-4 flex items-center gap-1.5 text-sm text-muted">
-          <MapPin className="size-4 text-brand" />
-          {card.riderName && <span className="font-medium text-ink">{card.riderName}</span>}
-          {card.lastSeenNear && <span>near {card.lastSeenNear}</span>}
-          {card.lastUpdate && <span>· {card.lastUpdate}</span>}
+        <p className="mt-4 flex items-start gap-1.5 text-sm text-muted">
+          <MapPin className="mt-0.5 size-4 shrink-0 text-brand" />
+          <span>
+            {card.riderName && <span className="font-medium text-ink">{card.riderName}</span>}
+            {card.lastSeenNear && <> near {card.lastSeenNear}</>}
+            {card.lastUpdate && <> · {card.lastUpdate}</>}
+          </span>
         </p>
       )}
     </div>
