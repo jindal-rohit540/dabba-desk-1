@@ -5,6 +5,7 @@ import { CategoryBadge } from "@/components/status";
 import { Badge, Card } from "@/components/ui";
 import type { InboxMessage } from "@/lib/data/dashboard";
 import { formatDuration } from "@/lib/format";
+import { maskPhone } from "@/lib/pii";
 import { formatDayIST, formatTimeIST, istDate } from "@/lib/time";
 
 const CHANNEL_ICON = { web: Monitor, whatsapp: MessageCircle, email: Mail };
@@ -45,6 +46,7 @@ export function Inbox({ messages, view }: { messages: InboxMessage[]; view: "all
                 <div className="flex flex-wrap items-center gap-2 text-sm">
                   <Icon className="size-4 text-muted" aria-label={m.channel} />
                   <span className="font-semibold">{m.customer?.name ?? "Unknown sender"}</span>
+                  <span className="text-xs text-muted tabular-nums">{maskPhone(m.phone)}</span>
                   <span className="text-muted">
                     {day === today ? "" : `${formatDayIST(day)}, `}
                     {formatTimeIST(m.created_at)}

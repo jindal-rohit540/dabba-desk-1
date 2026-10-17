@@ -1,6 +1,7 @@
 import { findVerifiedCustomer, markOrderSkipped, type VerifiedCustomer } from "@/lib/data/orders";
 import { insertMessage, type NewMessage } from "@/lib/data/messages";
 import { insertRefundRequest } from "@/lib/data/refunds";
+import { redactPII } from "@/lib/pii";
 import { calculateRefund } from "@/lib/refunds";
 import { canSkip } from "@/lib/skip";
 import { buildTriageContext, triageMessage, type Triage } from "@/lib/triage";
@@ -84,7 +85,7 @@ export async function handleCustomerMessage(
   try {
     triage = await deps.triageMessage(input.body, buildTriageContext(verified, deps.now()));
   } catch (err) {
-    console.error("triage error:", err);
+    console.error("triage error:", err instanceof Error ? redactPII(err.message) : "unknown");
     triage = {
       category: "other",
       needs_human: true,

@@ -1,6 +1,7 @@
 import { OrderStatusBadge } from "@/components/status";
 import { Card } from "@/components/ui";
 import type { DeliveryRow } from "@/lib/data/dashboard";
+import { maskPhone } from "@/lib/pii";
 import { formatTimeIST } from "@/lib/time";
 import type { OrderStatus } from "@/lib/types";
 
@@ -35,7 +36,7 @@ export function Deliveries({ orders }: { orders: DeliveryRow[] }) {
             <div className="min-w-0">
               <p className="truncate font-medium">{o.customer?.name}</p>
               <p className="truncate text-xs text-muted">
-                {o.id} · {o.customer?.area} · {o.rider?.name}
+                {o.id} · {maskPhone(o.customer?.phone)} · {o.customer?.area} · {o.rider?.name}
               </p>
             </div>
             <div className="flex shrink-0 flex-col items-end gap-1">
