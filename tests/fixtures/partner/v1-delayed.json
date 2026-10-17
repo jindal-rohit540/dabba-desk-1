@@ -1,0 +1,17 @@
+{
+  "event": "delivery.status",
+  "order_ref": "DX-10542",
+  "rider": {
+    "id": "R-10",
+    "name": "Ravi Teja"
+  },
+  "status": "DELAYED",
+  "eta": "2026-10-21T13:47:00+05:30",
+  "delay_reason": "Heavy traffic at Silk Board junction",
+  "location": {
+    "lat": 12.9177,
+    "lng": 77.6233,
+    "landmark": "Silk Board Junction"
+  },
+  "ts": "2026-10-21T13:07:00+05:30"
+}

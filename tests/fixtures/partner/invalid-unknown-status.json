@@ -1,0 +1,6 @@
+{
+  "event": "delivery.status",
+  "order_ref": "DX-99999",
+  "status": "TELEPORTED",
+  "ts": "2026-10-21T12:44:00+05:30"
+}
