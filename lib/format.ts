@@ -15,6 +15,7 @@ export function formatDuration(ms: number): string {
   if (ms < 100) return "<0.1s";
   if (ms < 60_000) return `${Math.round(ms / 100) / 10}s`;
   const totalMinutes = Math.floor(ms / 60_000);
-  if (totalMinutes < 60) return `${totalMinutes}m ${Math.round((ms % 60_000) / 1000)}s`;
+  if (totalMinutes < 10) return `${totalMinutes}m ${Math.round((ms % 60_000) / 1000)}s`;
+  if (totalMinutes < 60) return `${totalMinutes}m`;
   return `${Math.floor(totalMinutes / 60)}h ${totalMinutes % 60}m`;
 }

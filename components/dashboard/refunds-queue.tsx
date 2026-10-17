@@ -32,7 +32,7 @@ export function RefundsQueue({ refunds }: { refunds: RefundRow[] }) {
                   {r.order && <p className="text-xs text-muted">of {formatINR(r.order.amount_paise)}</p>}
                 </div>
               </div>
-              <div className="flex items-center gap-2">
+              <div className="flex flex-wrap items-center gap-2">
                 <Badge tone={STATUS_TONE[r.status]}>{r.status}</Badge>
                 {overpaid && <Badge tone="danger">More than order!</Badge>}
                 {r.source !== "dabbadesk" && <Badge>{r.source}</Badge>}

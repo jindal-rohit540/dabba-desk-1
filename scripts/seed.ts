@@ -195,8 +195,9 @@ async function main() {
   check("reset history", await sb.from("messages").delete().eq("handled_by", "human"));
   const historyRows = history.map((m) => {
     const phone = normalizePhone(m.phone);
-    const receivedAt = ts(m.received_at)!;
-    const repliedAt = m.replied_at ? ts(m.replied_at) : null;
+    // history keeps its real clock times (only today's deliveries move with --live)
+    const receivedAt = shiftDays(m.received_at, offset);
+    const repliedAt = m.replied_at ? shiftDays(m.replied_at, offset) : null;
     return {
       channel: m.channel,
       phone,
