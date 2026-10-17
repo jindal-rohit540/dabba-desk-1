@@ -33,3 +33,25 @@ describe("parsePartnerPayload: invalid input", () => {
     expect(() => parsePartnerPayload(payload)).toThrow(PartnerPayloadError);
   });
 });
+
+describe("parsePartnerPayload: ZipRun v2 (changed without notice)", () => {
+  it("maps in_transit with epoch timestamps", () => {
+    const raw = fixture("v2-in-transit");
+    const update = parsePartnerPayload(raw);
+    expect(update).toMatchObject({
+      orderId: raw.data.reference,
+      status: "out_for_delivery",
+      riderId: raw.data.courier_id,
+      landmark: null,
+    });
+    expect(update.eta).toBe(new Date(raw.data.expected_at * 1000).toISOString());
+    expect(update.at).toBe(new Date(raw.data.updated_at * 1000).toISOString());
+  });
+
+  it("maps delayed and keeps the reason", () => {
+    expect(parsePartnerPayload(fixture("v2-delayed"))).toMatchObject({
+      status: "delayed",
+      note: "Vehicle puncture near Ecospace",
+    });
+  });
+});

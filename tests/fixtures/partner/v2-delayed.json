@@ -1,0 +1,16 @@
+{
+  "type": "shipment_update",
+  "api_version": "2.0",
+  "data": {
+    "reference": "DX-10542",
+    "courier_id": "R-10",
+    "state": "delayed",
+    "delay_reason": "Vehicle puncture near Ecospace",
+    "expected_at": 1792571520,
+    "position": [
+      12.9259,
+      77.6815
+    ],
+    "updated_at": 1792568520
+  }
+}

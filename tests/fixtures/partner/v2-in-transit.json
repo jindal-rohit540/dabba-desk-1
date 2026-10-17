@@ -1,0 +1,15 @@
+{
+  "type": "shipment_update",
+  "api_version": "2.0",
+  "data": {
+    "reference": "DX-10541",
+    "courier_id": "R-04",
+    "state": "in_transit",
+    "expected_at": 1792566840,
+    "position": [
+      12.9352,
+      77.6245
+    ],
+    "updated_at": 1792565640
+  }
+}
