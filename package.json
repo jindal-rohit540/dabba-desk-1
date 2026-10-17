@@ -12,15 +12,15 @@
     "test:watch": "vitest",
     "format": "prettier --write .",
     "db:seed": "tsx --env-file=.env.local scripts/seed.ts",
-    "smoke:claude": "tsx --env-file=.env.local scripts/smoke-claude.mts",
+    "smoke:ai": "tsx --env-file=.env.local scripts/smoke-ai.mts",
     "partner:send": "tsx --env-file=.env.local scripts/send-partner-event.mts"
   },
   "dependencies": {
-    "@anthropic-ai/sdk": "^0.135.0",
     "@clerk/nextjs": "^7.9.17",
     "@supabase/supabase-js": "^2.118.0",
     "lucide-react": "^1.59.0",
     "next": "16.4.2",
+    "openai": "^7.36.0",
     "papaparse": "^5.7.0",
     "react": "19.3.0",
     "react-dom": "19.3.0",

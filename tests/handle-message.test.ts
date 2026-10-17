@@ -75,7 +75,7 @@ describe("handleCustomerMessage", () => {
     );
   });
 
-  it("falls back to a human when the Claude API fails", async () => {
+  it("falls back to a human when the OpenAI API fails", async () => {
     const deps = fakeDeps({ triageMessage: vi.fn().mockRejectedValue(new Error("529 overloaded")) });
     vi.spyOn(console, "error").mockImplementation(() => {});
     const result = await handleCustomerMessage(input, deps);

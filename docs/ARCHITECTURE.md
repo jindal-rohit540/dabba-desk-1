@@ -23,7 +23,7 @@ flowchart LR
 
   subgraph External
     SB[(Supabase<br/>Postgres)]
-    AI[Claude API<br/>claude-opus-5-5]
+    AI[OpenAI API<br/>gpt-5-mini]
     CK[Clerk]
   end
 
@@ -47,7 +47,7 @@ sequenceDiagram
   actor Cust as Customer
   participant Help as /help (Server Action)
   participant DB as Supabase
-  participant Claude as Claude API
+  participant Claude as OpenAI API
   Cust->>Help: phone + order ID + "where is my dabba?"
   Help->>DB: verify phone ↔ order, load order, rider, delivery events
   alt phone/order mismatch
@@ -153,7 +153,7 @@ erDiagram
 | Partner payloads go through an **adapter** (`lib/partner.ts`) | ZipRun changes formats without notice; only one file has to change. |
 
 ## LLM choice
-- **Model:** `claude-opus-5-5` via `@anthropic-ai/sdk`, with `effort: "low"` (it's a short classification-and-reply task, so speed matters).
+- **Model:** `gpt-5-mini` (override with `OPENAI_MODEL`) via the `openai` SDK Responses API with a zod schema for structured output.
 - **Structured output** (Zod schema) so the category is always valid JSON.
 - **Server-side refusal fallback** (`fallbacks: "default"`) enabled.
 - The prompt says: answer only from the provided rows; if the answer isn't there, say a human will reply.

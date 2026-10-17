@@ -4,7 +4,7 @@ Instant, correct answers for **Dabba Express** customers ("where's my dabba?"), 
 
 > Dabba Express is a fictional company created for the class.
 
-**Stack:** Next.js 16 (App Router) · TypeScript · Tailwind v4 · Supabase Postgres · Clerk · Claude API (`claude-opus-5-5`) · Vercel · GitHub Actions · Vitest
+**Stack:** Next.js 16 (App Router) · TypeScript · Tailwind v4 · Supabase Postgres · Clerk · OpenAI API (`gpt-5-mini`) · Vercel · GitHub Actions · Vitest
 
 ## What it does
 | Who | Where | What |
@@ -24,7 +24,7 @@ cp .env.example .env.local          # fill in Supabase + Anthropic keys
 npx clerk@latest init --accountless # temporary Clerk dev keys, no account needed
 npx supabase link --project-ref <ref> && npx supabase db push   # create tables
 npm run db:seed -- --reset --live   # load the messy CSVs (cleaning report printed)
-npm run smoke:claude                # one real Claude call to check your key
+npm run smoke:ai                    # one real OpenAI call to check your key
 npm run dev
 ```
 The seed prints a demo phone + order ID to try on `/help`.
@@ -35,7 +35,7 @@ The seed prints a demo phone + order ID to try on `/help`.
 | `npm test` | 80+ unit tests (Vitest), no network needed |
 | `npm run db:seed -- --reset --live` | Wipe + reload demo data, with today's deliveries at "lunch rush" right now |
 | `npm run partner:send -- v1-delayed DX-10563 [--url https://…]` | Pretend to be ZipRun and send a delivery update |
-| `npm run smoke:claude` | Check the Claude API key and see three triaged sample messages |
+| `npm run smoke:ai` | Check the OpenAI API key and see three triaged sample messages |
 | `npm run diwali:rush` | (branch `diwali-rush` only) triple today's orders for the crisis drill |
 
 ## Claude Code setup in this repo

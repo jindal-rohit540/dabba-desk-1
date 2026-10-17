@@ -28,7 +28,7 @@ None (uses `messages`, `refunds`, `orders`).
 - `components/help-chat.tsx`: chat UI with quick-question chips
 
 ## Business rules
-1. Model: `claude-opus-5-5`, `effort: "low"`, structured output via zod, `fallbacks: "default"`.
+1. Model: `OPENAI_MODEL` (default `gpt-5-mini`), structured output via zod (`zodTextFormat`, Responses API).
 2. The context sent to Claude contains **no phone numbers and no addresses**.
 3. Customer text is wrapped in `<customer_message>` tags and treated as untrusted.
 4. Skip is executed only if category = `skip_day`, model says `wants_skip_tomorrow`, and `canSkip` is true (status `scheduled` and before 21:00 IST the night before).
@@ -41,7 +41,7 @@ None (uses `messages`, `refunds`, `orders`).
 ## Rules for implementation
 - LLM calls only in `lib/triage.ts`
 - DB only via `lib/data/*`
-- No new dependencies beyond `@anthropic-ai/sdk` and `zod`
+- No new dependencies beyond `openai` and `zod`
 
 ## Tests to write
 | Unit | Case | Expected |

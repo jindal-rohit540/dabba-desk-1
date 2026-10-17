@@ -29,7 +29,7 @@ export const NOT_VERIFIED_REPLY =
 export const FALLBACK_REPLY =
   "Thanks for your message! Our team has it and will reply shortly. 🙏";
 
-// Injected so tests can run without Supabase or the Claude API.
+// Injected so tests can run without Supabase or the OpenAI API.
 export type Deps = {
   findVerifiedCustomer: typeof findVerifiedCustomer;
   triageMessage: typeof triageMessage;

@@ -16,7 +16,7 @@ function block(reason) {
 if (/\.env(?!\.example)(\.|\b)/.test(cmd) && /\b(cat|less|more|head|tail|grep|sed|awk|cp|mv|source|echo)\b/.test(cmd)) {
   block("commands that read or copy .env files are not allowed. Ask the human to check env vars.");
 }
-if (/\$\{?(SUPABASE_SECRET_KEY|ANTHROPIC_API_KEY|CLERK_SECRET_KEY|TWILIO_AUTH_TOKEN)/.test(cmd)) {
+if (/\$\{?(SUPABASE_SECRET_KEY|OPENAI_API_KEY|CLERK_SECRET_KEY|TWILIO_AUTH_TOKEN)/.test(cmd)) {
   block("printing secret environment variables is not allowed.");
 }
 

@@ -25,7 +25,7 @@ dabbadesk/
 ├── lib/
 │   ├── supabase/server.ts       # The ONLY place a Supabase client is created (server-only)
 │   ├── data/                    # All DB queries, one file per area (orders, messages, refunds, dashboard…)
-│   ├── triage.ts                # Claude API call: classify + reply (structured output)
+│   ├── triage.ts                # OpenAI call: classify + reply (structured output)
 │   ├── handle-message.ts        # Orchestration: verify → triage → deterministic actions → store (injectable deps)
 │   ├── refunds.ts · skip.ts · pause.ts   # Business rules (pure, unit-tested)
 │   ├── partner.ts               # ZipRun payload adapter v1 + v2 (pure, unit-tested)
@@ -65,7 +65,7 @@ dabbadesk/
 - **Next.js 16 App Router**. `cacheComponents` is **disabled** for simplicity. Data pages use `export const dynamic = "force-dynamic"`.
 - **Auth: Clerk.** `proxy.ts` only runs `clerkMiddleware()`. Every owner page calls `await auth.protect()` and every owner Server Action checks `auth()`. Don't use `createRouteMatcher` (deprecated).
 - **DB: Supabase Postgres** via `@supabase/supabase-js`, **server-side only** with `SUPABASE_SECRET_KEY`. No browser Supabase client.
-- **LLM: Claude** via `@anthropic-ai/sdk`, model `claude-opus-5-5`. Never send phone numbers or addresses to the model.
+- **LLM: OpenAI** via the `openai` SDK (Responses API + `zodTextFormat`), model from `OPENAI_MODEL` (default `gpt-5-mini`). Never send phone numbers or addresses to the model.
 - **Tests: Vitest.** No new dependencies without saying so first.
 
 ---
@@ -97,7 +97,7 @@ npx vitest run tests/refunds.test.ts   # one file
 npm run lint
 npm run typecheck
 npm run db:seed -- --reset --live   # wipe + reload demo data; today's deliveries at "lunch rush" now
-npm run smoke:claude                # one real Claude API call to check the key
+npm run smoke:ai                    # one real OpenAI call to check the key
 npm run partner:send -- v1-delayed DX-10542   # simulate a ZipRun webhook
 ```
 

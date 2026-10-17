@@ -1,5 +1,5 @@
-import Anthropic from "@anthropic-ai/sdk";
-import { betaZodOutputFormat } from "@anthropic-ai/sdk/helpers/beta/zod";
+import OpenAI from "openai";
+import { zodTextFormat } from "openai/helpers/zod";
 import { z } from "zod";
 import type { VerifiedCustomer } from "@/lib/data/orders";
 import { REFUND_REASONS } from "@/lib/refunds";
@@ -7,7 +7,7 @@ import { canSkip } from "@/lib/skip";
 import { formatDayIST, formatTimeIST } from "@/lib/time";
 import { MESSAGE_CATEGORIES } from "@/lib/types";
 
-export const MODEL = "claude-opus-5-5";
+export const MODEL = process.env.OPENAI_MODEL || "gpt-5-mini";
 
 export const TriageSchema = z.object({
   category: z.enum(MESSAGE_CATEGORIES),
@@ -87,31 +87,23 @@ export function buildTriageContext(v: VerifiedCustomer, now = new Date()) {
   };
 }
 
-let client: Anthropic | undefined;
+let client: OpenAI | undefined;
 
-/** One Claude call: classify + draft a grounded reply. Throws on API errors; callers decide the fallback. */
+/** One OpenAI call: classify + draft a grounded reply. Throws on API errors; callers decide the fallback. */
 export async function triageMessage(
   body: string,
   context: ReturnType<typeof buildTriageContext>,
 ): Promise<Triage> {
-  client ??= new Anthropic();
-  const response = await client.beta.messages.parse({
+  client ??= new OpenAI();
+  const response = await client.responses.parse({
     model: MODEL,
-    max_tokens: 4000,
-    betas: ["server-side-fallback-2026-07-01"],
-    fallbacks: "default", // if the model declines, the API retries on a fallback model
-    output_config: { effort: "low", format: betaZodOutputFormat(TriageSchema) },
-    system: SYSTEM_PROMPT,
-    messages: [
-      {
-        role: "user",
-        content: `<order_context>\n${JSON.stringify(context, null, 2)}\n</order_context>\n\n<customer_message>\n${body}\n</customer_message>`,
-      },
-    ],
+    instructions: SYSTEM_PROMPT,
+    input: `<order_context>\n${JSON.stringify(context, null, 2)}\n</order_context>\n\n<customer_message>\n${body}\n</customer_message>`,
+    text: { format: zodTextFormat(TriageSchema, "triage") },
   });
 
-  if (response.stop_reason === "refusal" || !response.parsed_output) {
-    throw new Error(`Triage failed (stop_reason: ${response.stop_reason})`);
+  if (!response.output_parsed) {
+    throw new Error(`Triage failed (status: ${response.status})`);
   }
-  return response.parsed_output;
+  return response.output_parsed;
 }
