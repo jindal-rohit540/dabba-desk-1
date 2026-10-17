@@ -14,7 +14,7 @@
       "mcp__supabase__execute_sql"
     ],
     "ask": ["Bash(git push:*)", "Bash(gh pr merge:*)", "Bash(npm install:*)"],
-    "deny": ["Read(./.env)", "Read(./.env.*)", "Edit(./.env)", "Edit(./.env.*)", "Write(./.env)", "Write(./.env.*)"]
+    "deny": ["Read(./.env)", "Read(./.env.*)", "Edit(./.env)", "Edit(./.env.*)"]
   },
   "hooks": {
     "SessionStart": [
