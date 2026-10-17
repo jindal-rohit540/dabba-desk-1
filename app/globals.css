@@ -1,0 +1,58 @@
+@import "tailwindcss";
+
+/* DabbaDesk design tokens. Use these via Tailwind classes (bg-brand, text-ink, border-line …). */
+@theme {
+  --color-paper: #fffaf3;
+  --color-card: #ffffff;
+  --color-ink: #1f1a17;
+  --color-muted: #75695f;
+  --color-line: #eee4d8;
+
+  --color-brand: #e8590c; /* turmeric / saffron */
+  --color-brand-dark: #c2410c;
+  --color-brand-soft: #fff0e3;
+
+  --color-leaf: #2f7d4a; /* banana leaf */
+  --color-leaf-soft: #e7f5ec;
+
+  --color-sky: #1d6fb8;
+  --color-sky-soft: #e6f1fb;
+
+  --color-warn: #b45309;
+  --color-warn-soft: #fef3c7;
+
+  --color-danger: #c0362c;
+  --color-danger-soft: #fdecea;
+
+  --color-chat: #efe7dc; /* WhatsApp-style chat backdrop */
+  --color-chat-mine: #dcf8c6;
+
+  --font-sans: var(--font-inter);
+  --font-display: var(--font-bricolage);
+
+  --shadow-card: 0 1px 2px rgb(31 26 23 / 0.04), 0 4px 16px rgb(31 26 23 / 0.06);
+  --radius-card: 1.25rem;
+}
+
+html {
+  color-scheme: light;
+}
+
+body {
+  background: var(--color-paper);
+  color: var(--color-ink);
+  font-family: var(--font-sans), system-ui, sans-serif;
+}
+
+h1,
+h2,
+h3 {
+  font-family: var(--font-display), var(--font-sans), sans-serif;
+  letter-spacing: -0.02em;
+}
+
+/* Soft dotted backdrop used on hero sections */
+.bg-dots {
+  background-image: radial-gradient(rgb(232 89 12 / 0.12) 1px, transparent 1px);
+  background-size: 18px 18px;
+}
